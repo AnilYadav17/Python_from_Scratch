@@ -18,6 +18,6 @@ Time = 2
 Simple Interest = 100.0'''
 
 
-principle,rate,time = map(float,input("Enter Priciple , Rate , Time :\n(Give space after each value ) ").split())
+principle,rate,time = map(float,input("Enter Priciple , Rate , Time :\n(Give space after each value )").split())
 SI = (principle*rate*time)/100
 print("Simple Interest =",SI)
