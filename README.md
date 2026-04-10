@@ -21,7 +21,7 @@ The goal is simple:
 Assignments/
 │
 ├── 01_input_output/
-├── 02_conditions/ (coming soon...)
+├── 02_conditions/ 
 ├── 03_loops/ (coming soon...)
 |
 .
@@ -36,8 +36,8 @@ Assignments/
 | Day | Topic            | Status |
 |-----|------------------|--------|
 | 01  | Input / Output   | ✅ Completed |
-| 02  | Conditions       | ⏳ In Progress |
-| 03  | Loops            | 🔜 Upcoming |
+| 02  | Conditions       | ✅ Completed |
+| 03  | Loops            | 🔜 Upcoming  |
 
 ---
 
