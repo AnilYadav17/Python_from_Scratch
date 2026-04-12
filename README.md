@@ -17,20 +17,6 @@ The goal is simple:
 
 ---
 
-## 📂 Folder Structure
-Assignments/
-│
-├── 01_input_output/
-├── 02_conditions/ 
-├── 03_loops/ (coming soon...)
-|
-.
-.
-.
-
-
----
-
 ## ✅ Progress Tracker
 
 | Day | Topic            | Status |
