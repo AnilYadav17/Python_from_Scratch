@@ -23,7 +23,7 @@ The goal is simple:
 |-----|------------------|--------|
 | 01  | Input / Output   | ✅ Completed |
 | 02  | Conditions       | ✅ Completed |
-| 03  | Loops            | 🔜 Upcoming  |
+| 03  | calculations     | ✅ Completed |
 
 ---
 
