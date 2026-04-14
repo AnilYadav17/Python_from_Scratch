@@ -5,10 +5,16 @@ A billing system applies nested calculations with discounts and extra charges us
 Input:
 50 + (10 * (+(2**3))) / 4 - (-6 % 4)'''
 
+result = 50 + (10 * (+(2**3))) / 4 - (-6 % 4)
 
-print(50 + (10 * (+(2**3))) / 4 - (-6 % 4))
-print("i) (2**3) : ",(2**3))
-print("ii) (10*(+(2**3)) : ",(10*(+(2**3))))
-print("iii) (80/4) : ", (10 * (+(2**3))) / 4)
-print("iv) -(-6 % 4) : ",(10 * (+(2**3))) / 4 - (-6 % 4))
-print("v) 50 + 80 / 4 -2 : ", (50 + (10 * (+(2**3))) / 4 - (-6 % 4)))
+# result = 50 + (10 * (+(8))) / 4 - (-6 % 4)
+# result = 50 + (10 * 8) / 4 - (-6 % 4)
+# result = 50 + 80 / 4 - (-6 % 4)
+# result = 50 + 20.0 - (-6 % 4)
+
+# result = 50 + 20.0 - (2)      # because -6 % 4 = 2
+# result = 50 + 20.0 - 2
+# result = 70.0 - 2
+# result = 68.0
+
+print(result)
