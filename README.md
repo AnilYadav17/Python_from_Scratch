@@ -4,10 +4,13 @@
 
 This repository contains my daily Python practice and assignments.
 
+
 🎯 Goals
 Build strong programming fundamentals
 Practice consistently
 Improve problem-solving skills
+
+
 📂 Folder Structure
 Python_from_Scratch
 ├── 01_input_output
@@ -18,6 +21,8 @@ Python_from_Scratch
     ├── Day4
     ├── Day5
     └── Day6
+
+
 ✅ Progress Tracker
 Day	Topic	Status
 01	Input / Output	✅ Completed
@@ -25,6 +30,9 @@ Day	Topic	Status
 03	Calculations	✅ Completed
 04	Advanced Calculations	✅ Completed
 05+	Class Work	🔄 Ongoing
+
+
+
 🧠 Concepts Covered
 🔹 Basics
 Python Syntax
@@ -41,6 +49,8 @@ EMI Calculation
 Compound Interest
 Run Rate Calculation
 Data Conversion
+
+
 🧪 Sample Code
 # Logical Operators
 print(5 > 2 and 2 == 3)   # False
@@ -48,12 +58,14 @@ print(10 < 20 < 30)       # True
 
 # Chained Comparison
 print(3 < 4 != 2 < 5)     # True
+
 ⚡ Tech Stack
 <p align="center"> <img src="https://skillicons.dev/icons?i=python,git,github,vscode" /> </p>
+
 📊 GitHub Stats
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=AnilYadav17&show_icons=true&theme=tokyonight" /> <br/> <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnilYadav17&theme=tokyonight" /> </p>
-🔥 Highlights
 
+🔥 Highlights
 ✔ Daily coding practice
 ✔ Clean and structured code
 ✔ Strong fundamentals
