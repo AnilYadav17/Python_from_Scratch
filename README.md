@@ -1,17 +1,24 @@
-🚀 Python From Scratch
-<p align="center"> <img src="https://readme-typing-svg.herokuapp.com?size=25&duration=3000&color=00F7FF&center=true&vCenter=true&width=600&lines=Learning+Python+Step+by+Step;Building+Strong+Fundamentals;Consistency+%3D+Growth" /> </p>
-📌 About This Repository
+# 🚀 Python From Scratch
 
-This repository contains my daily Python practice and assignments.
+---
 
+## 📌 About This Repository
 
-🎯 Goals
-Build strong programming fundamentals
-Practice consistently
-Improve problem-solving skills
+This repository contains my **daily Python practice and assignments**.
 
+---
 
-📂 Folder Structure
+## 🎯 Goals
+
+- Build strong programming fundamentals  
+- Practice consistently  
+- Improve problem-solving skills  
+
+---
+
+## 📂 Folder Structure
+
+```bash
 Python_from_Scratch
 ├── 01_input_output
 ├── 02_conditions
@@ -21,44 +28,56 @@ Python_from_Scratch
     ├── Day4
     ├── Day5
     └── Day6
+```
 
+---
 
-✅ Progress Tracker
-Day	Topic	Status
-01	Input / Output	✅ Completed
-02	Conditions	✅ Completed
-03	Calculations	✅ Completed
-04	Advanced Calculations	✅ Completed
-05+	Class Work	🔄 Ongoing
+## ✅ Progress Tracker
 
+| Day | Topic                  | Status |
+|-----|------------------------|--------|
+| 01  | Input / Output         | ✅ Completed |
+| 02  | Conditions             | ✅ Completed |
+| 03  | Calculations           | ✅ Completed |
+| 04  | Advanced Calculations  | ✅ Completed |
+| 05+ | Class Work             | 🔄 Ongoing |
 
+---
 
-🧠 Concepts Covered
-🔹 Basics
-Python Syntax
-Variables & Data Types
-Input / Output
-🔹 Operators
-Arithmetic Operators
-Relational Operators
-Logical Operators
-Assignment Operators
-🔹 Problem Solving
-Time Conversion
-EMI Calculation
-Compound Interest
-Run Rate Calculation
-Data Conversion
+## 🧠 Concepts Covered
 
+### 🔹 Basics
+- Python Syntax  
+- Variables & Data Types  
+- Input / Output  
 
-🧪 Sample Code
+### 🔹 Operators
+- Arithmetic Operators  
+- Relational Operators  
+- Logical Operators  
+- Assignment Operators  
+
+### 🔹 Problem Solving
+- Time Conversion  
+- EMI Calculation  
+- Compound Interest  
+- Run Rate Calculation  
+- Data Conversion  
+
+---
+
+## 🧪 Sample Code
+
+```python
 # Logical Operators
 print(5 > 2 and 2 == 3)   # False
 print(10 < 20 < 30)       # True
 
 # Chained Comparison
 print(3 < 4 != 2 < 5)     # True
+```
 
+---
 ⚡ Tech Stack
 <p align="center"> <img src="https://skillicons.dev/icons?i=python,git,github,vscode" /> </p>
 
