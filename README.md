@@ -28,7 +28,7 @@ Python_from_Scratch
 └── Class_Work
     ├── Day4
     ├── Day5
-    └── Day6
+    └── Day6''' 
 
 ✅ Progress Tracker
 Day	Topic	Status
