@@ -89,7 +89,7 @@ Q30: Does Python recompile code every time?
 A: No, it uses cached bytecode if the source hasn't changed.
 
 Q31: Built-in data types in Python?
-A: int, float, complex, str, list, tuple, set, dict, bool.
+A: int, float, complex, str, list, tuple, set, dict, bool, None.
 
 Q32: Difference between mutable and immutable types?
 A: Mutable objects can be changed (list), immutable cannot (tuple, string).
