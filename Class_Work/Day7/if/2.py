@@ -1,3 +1,3 @@
 print("Welcome")
 if True:
-print("Welcome")
+ print("Welcome")
