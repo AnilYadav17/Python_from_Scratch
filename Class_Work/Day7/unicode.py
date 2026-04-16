@@ -1,0 +1,6 @@
+print(ord("😊"))
+print(ord("~"))
+print(ord("!"))
+print(ord("A"))
+print(ord("a"))
+print(ord("1"))
