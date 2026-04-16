@@ -1,0 +1,233 @@
+Q1: What are the key features of Python?
+A: Python is known for its simplicity and readability, making it beginner-friendly. It is an interpreted, high-level, dynamically typed language with automatic memory management. It supports multiple programming paradigms (procedural, object-oriented, functional) and has a vast standard library. Python is also platform-independent.
+
+Q2: Why is Python called an interpreted language?
+A: Python is called interpreted because its code is executed line-by-line by an interpreter rather than being fully compiled into machine code before execution. This allows easier debugging and flexibility.
+
+Q3: Difference between compiled and interpreted languages?
+A: Compiled languages (like C) convert the entire program into machine code before execution, making them faster. Interpreted languages (like Python) execute code line-by-line, making them slower but easier to debug.
+
+Q4: What makes Python dynamically typed?
+A: In Python, variable types are determined at runtime. You don't need to declare a variable's type explicitly; Python assigns it automatically based on the value.
+
+Q5: Why is Python platform independent?
+A: Python code is compiled into bytecode, which is executed by the Python Virtual Machine (PVM). Since PVM exists on multiple platforms, the same code runs everywhere.
+
+Q6: What is the advantage of Python being a high-level language?
+A: High-level languages are closer to human language, making them easier to read, write, and maintain. They abstract away hardware-level details.
+
+Q7: What are the limitations of Python?
+A: Python is slower than compiled languages, consumes more memory, and is not ideal for mobile apps or high-performance computing tasks.
+
+Q8: How does Python execute a program internally?
+A: Python first converts source code into bytecode, then the Python Virtual Machine executes this bytecode.
+
+Q9: What is bytecode in Python?
+A: Bytecode is an intermediate, platform-independent representation of Python code generated after compilation.
+
+Q10: What is PVM (Python Virtual Machine)?
+A: PVM is the runtime engine that executes Python bytecode.
+
+Q11: Difference between source code, bytecode, and machine code?
+A: Source code is human-readable code. Bytecode is intermediate code. Machine code is binary instructions executed by the CPU.
+
+Q12: Does Python compile code before execution?
+A: Yes, Python compiles code into bytecode before executing it.
+
+Q13: Where is bytecode stored?
+A: Bytecode is stored in the __pycache__ directory as .pyc files.
+
+Q14: Is Python fully interpreted?
+A: No, Python is both compiled (to bytecode) and interpreted (executed by PVM).
+
+Q15: What is compilation in Python?
+A: Compilation is the process of converting source code into bytecode.
+
+Q16: What is parsing in Python?
+A: Parsing is analyzing the syntax of the code to ensure it follows language rules.
+
+Q17: What is a parse tree?
+A: A parse tree represents the syntactic structure of code based on grammar rules.
+
+Q18: What is Abstract Syntax Tree (AST)?
+A: AST is a simplified tree representation of source code used internally by Python.
+
+Q19: Difference between parse tree and AST?
+A: Parse tree shows full grammar structure; AST is simplified and more practical for execution.
+
+Q20: What role does AST play in Python execution?
+A: AST is used as an intermediate step before generating bytecode.
+
+Q21: What is the compilation pipeline in Python?
+A: Source code → Tokenization → Parsing → AST → Bytecode → Execution.
+
+Q22: Steps from source code to execution?
+A: Write code → Compile to bytecode → Execute via PVM.
+
+Q23: What is lexical analysis?
+A: Breaking code into tokens like keywords, identifiers, operators.
+
+Q24: What is syntax analysis?
+A: Checking whether tokens follow correct grammar rules.
+
+Q25: What happens if there is a syntax error?
+A: The program stops execution and shows an error message.
+
+Q26: What is a code object?
+A: A code object is the compiled bytecode representation of a block of Python code.
+
+Q27: What is a .pyc file?
+A: A .pyc file stores compiled bytecode for faster execution.
+
+Q28: When are .pyc files created?
+A: When a Python file is first executed or imported.
+
+Q29: Purpose of __pycache__ folder?
+A: To store compiled bytecode files.
+
+Q30: Does Python recompile code every time?
+A: No, it uses cached bytecode if the source hasn't changed.
+
+Q31: Built-in data types in Python?
+A: int, float, complex, str, list, tuple, set, dict, bool.
+
+Q32: Difference between mutable and immutable types?
+A: Mutable objects can be changed (list), immutable cannot (tuple, string).
+
+Q33: Why are strings immutable?
+A: For memory optimization and performance.
+
+Q34: What is None type?
+A: It represents the absence of a value.
+
+Q35: Can Python store multiple data types in a variable?
+A: Yes, due to dynamic typing.
+
+Q36: What is type casting?
+A: Converting one data type to another.
+
+Q37: Difference between implicit and explicit conversion?
+A: Implicit is automatic; explicit is manual using functions.
+
+Q38: Example of implicit conversion?
+A: 5 + 2.5 → 7.5
+
+Q39: Float to int conversion?
+A: Decimal part is truncated.
+
+Q40: Can we always convert string to int?
+A: No, only numeric strings can be converted.
+
+Q41: What error occurs if conversion fails?
+A: ValueError.
+
+Q42: Difference between input() and print()?
+A: input() reads data; print() displays output.
+
+Q43: Why does input() return string?
+A: To allow flexible input handling.
+
+Q44: How to take integer input?
+A: int(input())
+
+Q45: sep and end in print()?
+A: sep separates values; end defines line ending.
+
+Q46: Multiple inputs in one line?
+A: a, b = input().split()
+
+Q47: How to format output?
+A: Using f-strings or format().
+
+Q48: Difference between / and // ?
+A: / gives float; // gives floor value.
+
+Q49: Use of % operator?
+A: Returns remainder.
+
+Q50: Use of ** operator?
+A: Exponentiation.
+
+Q51: Why is ^ not power?
+A: It is a bitwise XOR operator.
+
+Q52: Assignment operators?
+A: =, +=, -=, *=, etc.
+
+Q53: Difference between = and == ?
+A: = assigns; == compares.
+
+Q54: What does += do internally?
+A: It adds and assigns the result.
+
+Q55: Output of 5 > 3 > 1?
+A: True (chained comparison).
+
+Q56: Can relational operators be chained?
+A: Yes.
+
+Q57: What is a variable?
+A: A named reference to a value.
+
+Q58: Why no type declaration?
+A: Dynamic typing.
+
+Q59: Can type change?
+A: Yes.
+
+Q60: Multiple assignment?
+A: Assign multiple values in one line.
+
+Q61: Swap without third variable?
+A: a, b = b, a
+
+Q62: Identifiers?
+A: Names of variables/functions.
+
+Q63: Rules?
+A: Letters, digits, underscore; no keywords.
+
+Q64: Can start with number?
+A: No.
+
+Q65: Identifier vs keyword?
+A: User-defined vs reserved.
+
+Q66: Case-sensitive?
+A: Yes.
+
+Q67: Who developed Python?
+A: Guido van Rossum.
+
+Q68: When released?
+A: 1991.
+
+Q69: Why created?
+A: Simplicity and readability.
+
+Q70: Why name Python?
+A: Inspired by Monty Python.
+
+Q71: Major versions?
+A: Python 1, 2, 3.
+
+Q72: Why Python 2 discontinued?
+A: Outdated and unsupported.
+
+Q73: print(True + True)?
+A: 2
+
+Q74: print(10 and 0 or 5)?
+A: 5
+
+Q75: print(5 > 3 > 2)?
+A: True
+
+Q76: print(bool(""))?
+A: False
+
+Q77: print(10 / 3)?
+A: 3.3333333333333335
+
+Q78: print(10 // 3)?
+A: 3
