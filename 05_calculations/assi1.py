@@ -17,9 +17,6 @@ id = input("Do you have ID (yes/no) :")
 
 if age>= 18:
     print("Eligible to vote")
-else:
-    print("Not Eligible to vote")
-if id =="yes":
-    print("Allowed inside booth")
-else:
-    print("Not Allowed inside booth")
+    if id =="yes":
+        print("Allowed inside booth")
+
