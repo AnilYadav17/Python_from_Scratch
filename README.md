@@ -40,6 +40,7 @@ Python_from_Scratch
 | 02  | Conditions             | ✅ Completed |
 | 03  | Calculations           | ✅ Completed |
 | 04  | Advanced Calculations  | ✅ Completed |
+| 05  | Using if Calculations  | ✅ Completed |
 | 05+ | Class Work             | 🔄 Ongoing |
 
 ---
