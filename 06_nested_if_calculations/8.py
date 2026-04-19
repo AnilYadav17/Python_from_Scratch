@@ -20,6 +20,9 @@ unit4 =  float(input("Unit4 = "))
 unit5 =  float(input("Unit5 = "))
 unit6 =  float(input("Unit6 = "))
 
-if unit1>unit2 and unit1>unit3 and unit1>unit4 and unit1>unit5 and unit1>unit6:
-    print("Highest Stock = ",unit1)
-
+if unit1>unit2 :
+	if unit2>unit3:
+		if unit1>unit4:
+			if unit1>unit5:
+				if unit1>unit6:
+					print("Highest Stock = ",unit1)
