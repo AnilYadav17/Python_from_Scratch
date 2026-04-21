@@ -12,7 +12,22 @@ Test Score = 65
 Output:
 Access Status = Retry Test'''
 
-
 subscription = input("Subscription = ").lower()
-progress =  int(input("Progress = "))
+progress = int(input("Progress = "))
+scores = int(input("Test Score = "))
 
+if subscription=="premium":
+    if progress>80:
+        if scores>70:
+            print("Access Status = Certificate Unlocked")
+        else:
+            print("Access Status = Retry Test")
+    else:
+        print("Access Status = Complete Course First")
+elif subscription=="basic":
+    if progress>50:
+        print("Access Status = Limited Access")
+    else:
+        print("Access Status = Content Locked")
+else:
+     print("Access Status = Access Denied")
