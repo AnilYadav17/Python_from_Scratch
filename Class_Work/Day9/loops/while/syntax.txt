@@ -1,0 +1,5 @@
+initialization
+while condition:
+  body of loop
+  inc/dec
+out

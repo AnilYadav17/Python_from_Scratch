@@ -1,0 +1,3 @@
+for variable in sequence:
+    body of loop
+
