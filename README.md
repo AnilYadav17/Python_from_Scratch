@@ -21,6 +21,7 @@ This repository contains my **daily Python practice and assignments**.
 ```bash
 Python_from_Scratch
 ├── 01_input_output
+
 ├── 02_conditions
 ├── 03_calculations
 ├── 04_calculations
@@ -34,14 +35,14 @@ Python_from_Scratch
 
 ## ✅ Progress Tracker
 
-| Day | Topic                  | Status |
-|-----|------------------------|--------|
-| 01  | Input / Output         | ✅ Completed |
-| 02  | Conditions             | ✅ Completed |
-| 03  | Calculations           | ✅ Completed |
-| 04  | Advanced Calculations  | ✅ Completed |
-| 05  | Using if Calculations  | ✅ Completed |
-| 05+ | Class Work             | 🔄 Ongoing |
+| Day | Topic                        | Status |
+|---------|------------------------|-------------|
+| 01   | Input / Output             | ✅ Completed |
+| 02   | Conditions                   | ✅ Completed |
+| 03   | Calculations                | ✅ Completed |
+| 04   | Advanced Calculations  y| ✅ Completed |
+| 05   | Using if Calculations  | ✅ Completed |
+| 05+  | Class Work                 | 🔄 Ongoing |
 
 ---
 
