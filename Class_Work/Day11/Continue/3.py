@@ -4,5 +4,5 @@ while True:
         continue
     elif num==10:
         break
-    else:
+    else:   
         print("Num =",num)
