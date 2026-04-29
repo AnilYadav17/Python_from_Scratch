@@ -18,14 +18,28 @@ Smallest = 2
 Sum = 11
 Prime'''
 
+import math
+largest=0
+smallest=9
+sum=0
+n = input("Enter Number = ")
+for i in n:
+   if int(i)>largest:
+      largest=int(i)
+   if smallest>int(i):
+      smallest = int(i)
+   
+print("Largest = ",largest)
+print("Smallest = ",smallest)
 
-n = int(input("Enter Number = "))
-largest = 0
-smallest = 9
-for i in str(n):
-    if largest<int(i) :
-       largest = int(i)
-    else:
-       smallest = int(i)
-print("Smallest =",smallest)
-print("Largest =",largest) 
+sum=largest+smallest
+print("Sum =",sum)
+if sum<=1:
+   print("Not Prime")
+else:
+   for i in range(2,int(math.sqrt(sum))+1):
+      if sum%i==0:
+         print("Not Prime")
+         break
+   else:
+      print("Prime")
