@@ -20,12 +20,12 @@ Prime'''
 
 
 n = int(input("Enter Number = "))
-largest = None
-smallest = None 
+largest = 0
+smallest = 9
 for i in str(n):
-    if largest<int(i) or largest is None:
+    if largest<int(i) :
        largest = int(i)
-    elif smallest>int(i) or smallest is None:
-       smallest > int(i)
+    else:
+       smallest = int(i)
 print("Smallest =",smallest)
 print("Largest =",largest) 
