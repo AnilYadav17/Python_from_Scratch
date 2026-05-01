@@ -16,7 +16,8 @@ Input:
 Output:
 0 1 1 2 3 5 8'''
 
-num = int(input("Enter the Number = "))
+
+'''num = int(input("Enter the Number = "))
 series = ""
 if num==1: 
     val=0
@@ -25,6 +26,4 @@ if num==1:
 elif num==1:
     val=1
     series=""+str(num)
-    print(series)
-else:
-    fab = 
+    print(series)'''
