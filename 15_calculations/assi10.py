@@ -39,9 +39,27 @@ Total Collection = 2440
 Highest Bill = 1700'''
 
 
-n = int(input("Enter Number of Houses = "))
-units = int(input("Enter number of Units = "))
-
-i=0
-while i<n:
-  for 
+n=int(input("Enter  the house no = "))
+sum=0
+maxbill=0
+for i in range(1,n+1):
+    units=int(input(f"Enter the units of {i} house "))
+    if units<=100:
+        bill=units*5
+        #sum+=bill
+        if units<50:
+            bill=bill-100
+        sum+=bill
+    elif 101<units<=200:
+        bill=(units-100)*7+(100*5)
+        sum+=bill
+    elif units>200:
+        bill=(units-200)*10+100*5+100*7
+        sum+=bill
+    if bill>2000:
+        bill=(20/100)*bill
+    if bill>maxbill:
+        maxbill=bill    
+    print(bill)
+print("THe total collecction = ",sum)
+print("Highest bill = ",maxbill)
