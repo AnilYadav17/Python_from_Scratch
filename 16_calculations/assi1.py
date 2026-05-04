@@ -26,3 +26,7 @@ Unstable Number'''
 
 
 
+num = int(input("Enter Number = "))
+
+
+
