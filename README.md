@@ -25,6 +25,13 @@ Python_from_Scratch
 ├── 02_conditions
 ├── 03_calculations
 ├── 04_calculations
+     05_calculations
+     06_calculations
+     07_calculations
+     08_calculations
+     09_calculations
+     10_calculations
+     11_calculations
 └── Class_Work
     ├── Day4
     ├── Day5
