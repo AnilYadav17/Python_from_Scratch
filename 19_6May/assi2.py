@@ -102,3 +102,16 @@ Enter your choice: 6
 
 Output:
 Exiting program... Thank you!'''
+while True:
+    print("\nMenu Options:\n1 → Enter Basic Salary\n2 → Calculate HRA (20%) and DA (10%)\n3 → Calculate Net Salary\n4 → Tax Deduction")
+    choice = int(input("Enter Choice = "))
+    main_salary=0
+    match choice:
+        case 1:
+            salary = float(input("Basic Salary = "))
+            main_salary = salary
+        case 2:
+            if main_salary==0:
+                print("Please enter basic salary first!")
+            else:
+                print("Salary = ",main_salary)
