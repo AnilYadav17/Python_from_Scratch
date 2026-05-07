@@ -4,14 +4,17 @@ subjects = int(input("Enter Number of Subjects = "))
 
 sum =0
 for i in range(1,classes+1):
-    print("Class",i)
+    print("\nClass",i)
     for i in range(1,students+1):
-        print("Student",i)
+        student_sum=0
+        print("\nStudent",i)
         i =1
         mark=""
         while i<=subjects:
             mark= input("Enter Marks = ")
-            sum+=int(mark)
+            student_sum+=int(mark)
             i+=1
+        print("Student",i,"Total Marks =",student_sum)
+        student_sum=0
         print()
 print(sum)
