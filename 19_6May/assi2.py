@@ -102,16 +102,35 @@ Enter your choice: 6
 
 Output:
 Exiting program... Thank you!'''
+
+salary=0
 while True:
     print("\nMenu Options:\n1 → Enter Basic Salary\n2 → Calculate HRA (20%) and DA (10%)\n3 → Calculate Net Salary\n4 → Tax Deduction")
     choice = int(input("Enter Choice = "))
-    main_salary=0
+    
     match choice:
         case 1:
             salary = float(input("Basic Salary = "))
-            main_salary = salary
+            print("Basic Salary recorded successfully")
         case 2:
-            if main_salary==0:
+            if salary==0:
                 print("Please enter basic salary first!")
             else:
-                print("Salary = ",main_salary)
+                hra = salary*20/100
+                da = salary*10/100
+                print("HRA :",hra)
+                print("DA :",da)
+        case 3:
+            net_salary = salary+hra+da
+            print("Net Salary =",net_salary)       
+        case 4:
+            if net_salary>5000:
+                print("Tax Deduction = ",net_salary*10/100)
+        case 5:
+            print("----- Salary Slip -----")
+            print("Basic Salary:",salary)
+            print("HRA:",hra)
+            print("DA:",da)
+            print("Net Salary:",net_salary)
+            print("Tax:",net_salary*10/100)
+            print("Final Salary:",net_salary-(net_salary*10/100))
