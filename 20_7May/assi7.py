@@ -29,7 +29,7 @@ Neon Numbers are:
 
 num1 = int(input("Enter starting number: "))
 num2 = int(input("Enter ending number: "))
-print("Pollindrome Numbers are: ")
+print("Neon Numbers are: ")
 
 
 while num1<=num2:
