@@ -3,13 +3,12 @@ i = 1
 
 while i <= num:
     
-    # print spaces
+
     space = num - 1
     while space >= i:
         print(" ", end="")
         space -= 1
 
-    # print pattern
     j = 1
     while j <= i:
         if j % 2 != 0:
