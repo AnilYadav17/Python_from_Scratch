@@ -16,19 +16,17 @@ Output:
 Duck Number'''
 
 
-n = int(input("Enter Number = "))
-m = str(n)
-flag = False
-for i in m:
-   if int(i)==0:
-      print("Not Duck Number")
-   else:
-      i = int(i)
-      if i==0:
-         flag=True
-
-if flag==True:
-   print("Duck Number")
+n = input("Enter Number = ")
+m = n
+length = len(m)
+if int(n)//10**(length-1)==0:
+    print("Not Duck Number")
 else:
-   print("Not Duck Number")
-
+    for i in n:
+        if i=="0":
+            print("Duck Number")
+            break
+    else:
+        print("Not Duck Number")
+      
+        
