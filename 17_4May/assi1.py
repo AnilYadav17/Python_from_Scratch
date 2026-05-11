@@ -20,47 +20,61 @@ Even Differences Count = 3
 Max Difference = 5
 Non-Uniform Pattern'''
 
+
 num = int(input("Enter Number = "))
 
 prev = num % 10
 num = num // 10
 
-differences = 0
+differences = ""
 
 while num > 0:
     digit = num % 10
 
     diff = abs(digit - prev)
-    differences.append(diff)
+
+    differences = str(diff) + " " + differences
 
     prev = digit
     num = num // 10
 
-# reverse because digits were taken from right to left
-rev=""
-for i in str(differences):
-    rev=i+rev
-differences = rev
-print("Differences:",differences)
+print("Differences:", differences)
 
 # Even difference count
 count = 0
+
 for i in differences:
-    if i % 2 == 0:
-        count += 1
+    if i != " ":
+        if int(i) % 2 == 0:
+            count += 1
 
 print("Even Differences Count =", count)
 
 # Maximum difference
-print("Max Difference =", max(differences))
+maxi = 0
+
+for i in differences:
+    if i != " ":
+        if int(i) > maxi:
+            maxi = int(i)
+
+print("Max Difference =", maxi)
 
 # Uniform check
+first = ""
+
+for i in differences:
+    if i != " ":
+        first = i
+        break
+
 flag = True
 
 for i in differences:
-    if i != differences[0]:
-        flag = False
-        break
+    if i != " ":
+        if i != first:
+            flag = False
+            break
 
 if flag:
     print("Uniform Difference")
