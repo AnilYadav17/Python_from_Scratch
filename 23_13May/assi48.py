@@ -1,9 +1,10 @@
-'''47.
-    1
-   11
-  1*1
- 1**1
-11111'''
+'''48.
+    A
+   AB
+  A_C
+ A__D
+ABCDE
+'''
 
 
 
@@ -13,7 +14,7 @@ for i in range(1,num+1):
         print(" ",end="")
     for k in range(1,i+1):
         if i==num or k==1 or k==i:
-            print("1",end="")
+            print(chr(ord("A")+k-1),end="")
         else:
-            print("*",end="")
+            print("_",end="")
     print()

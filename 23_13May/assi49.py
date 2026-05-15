@@ -1,10 +1,9 @@
-'''47.
+'''49.
     1
-   11
-  1*1
- 1**1
-11111'''
-
+   10
+  101
+ 1010
+10101'''
 
 
 num = int(input("Enter Number: "))
@@ -12,8 +11,8 @@ for i in range(1,num+1):
     for j in range(1,num-i+1):
         print(" ",end="")
     for k in range(1,i+1):
-        if i==num or k==1 or k==i:
+        if k%2!=0:
             print("1",end="")
         else:
-            print("*",end="")
+            print("0",end="")
     print()
