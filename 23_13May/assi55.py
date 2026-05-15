@@ -1,9 +1,10 @@
 '''55.
 ABCDE
-ABCD
-ABC
-AB
-A'''
+ ABCD
+  ABC
+   AB
+    A
+'''
 
 num = int(input("Enter Number: "))
 for i in range(1,num+1):
