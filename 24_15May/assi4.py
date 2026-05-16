@@ -5,7 +5,7 @@ A school management system wants to count how many consonants are present in stu
 
 Input: Enter student name: Ajay Singh Thakur
 
-Output: Total consonants: 11
+Output: Total consonants: 10
 
 NOTE:
 

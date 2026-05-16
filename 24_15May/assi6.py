@@ -14,22 +14,27 @@ Enter PNR: PNR123456789
 Output:
 Valid PNR Number'''
 
+#using method
 # num = input("Enter Number: ")
-
 # if len(num) == 12 and num[:3] == "PNR" and num[3:].isdigit():
 #     print("Valid PNR Number")
 # else:
 #     print("InValid PNR Number")
 
 
-num = input("Enter Number: ")
-flag=False
-if len(num) == 12 and num[:3] == "PNR":
-    for ch in num[3:]:
-        if ch>="0" and ch<="9":
-            flag=True
 
-if flag==True:
+#Manualy
+num = input("Enter Number: ")
+flag = False
+
+if len(num) == 12 and num[:3] == "PNR":
+    flag = True
+    for ch in num[3:]:
+        if not ("0" <= ch <= "9"):
+            flag = False
+            break
+
+if flag == True:
     print("Valid PNR Number")
 else:
     print("Invalid PNR Number")
