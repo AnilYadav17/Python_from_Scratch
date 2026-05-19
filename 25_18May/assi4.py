@@ -30,8 +30,3 @@ else:
     print("Invalid Employee ID")
 
 
-#with methods
-if id[-5:].isdigit() and id[3:].isalpha():
-    print("Valid")
-else:
-    print("Invalid")

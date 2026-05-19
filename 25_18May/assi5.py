@@ -15,7 +15,7 @@ Enter product code: PRODUCT
 Output:
 Not a Palindrome Code'''
 
-code = input("Enter product code: ")
+code = input("Enter product code: ").lower()
 if code[::-1]==code:
     print("Palindrome Code")
 else:
