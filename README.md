@@ -4,117 +4,118 @@
 
 ## 📌 About This Repository
 
-This repository contains my **daily Python practice and assignments**.
+This repository contains my **daily Python practice, classwork, and assignments** as I learn Python from the basics. It showcases consistent daily progress and problem-solving practice.
+
+**Last Updated:** May 20, 2026
 
 ---
 
 ## 🎯 Goals
 
-- Build strong programming fundamentals  
-- Practice consistently  
-- Improve problem-solving skills  
+- Build strong programming fundamentals
+- Develop consistent coding habits
+- Improve problem-solving and logical thinking skills
+- Prepare for advanced Python and backend development
 
 ---
 
-## 📂 Folder Structure
+## 📂 Repository Structure
 
-```bash
-Python_from_Scratch
-├── 01_input_output
-
-├── 02_conditions
-├── 03_calculations
-├── 04_calculations
-     05_calculations
-     06_calculations
-     07_calculations
-     08_calculations
-     09_calculations
-     10_calculations
-     11_calculations
-└── Class_Work
-    ├── Day4
-    ├── Day5
-    └── Day6
-```
+- **01_input_output** → Basic Input/Output
+- **02_conditions** → Conditional Statements
+- **03_calculations to 16_calculations** → Arithmetic & Real-world Calculations
+- **05_if_calculations & 06_nested_if_calculations** → If-Else Logic
+- **17_4May to 26_19May** → Date-wise Daily Assignments & Practice
+- **Assignments** → Dedicated assignment solutions
+- **Class_Work** → Class lectures and examples
+- **Practice Sheets** → Extra practice questions
+- **Question_Sheets** → Question banks
 
 ---
 
 ## ✅ Progress Tracker
 
-| Day | Topic                        | Status |
-|---------|------------------------|-------------|
-| 01   | Input / Output             | ✅ Completed |
-| 02   | Conditions                   | ✅ Completed |
-| 03   | Calculations                | ✅ Completed |
-| 04   | Advanced Calculations  y| ✅ Completed |
-| 05   | Using if Calculations  | ✅ Completed |
-| 05+  | Class Work                 | 🔄 Ongoing |
+| Status       | Topics                                      |
+|--------------|---------------------------------------------|
+| ✅ Completed | Input/Output, Variables, Data Types        |
+| ✅ Completed | Conditions & If-Else Statements            |
+| ✅ Completed | Calculations & Operators                   |
+| ✅ Completed | Nested If Conditions                       |
+| 🔄 Ongoing   | Daily Assignments & Advanced Practice      |
 
 ---
 
 ## 🧠 Concepts Covered
 
-### 🔹 Basics
-- Python Syntax  
-- Variables & Data Types  
-- Input / Output  
+### 🔹 Core Fundamentals
+- Python Syntax & Comments
+- Variables and Data Types
+- Type Conversion
+- Input and Output
 
 ### 🔹 Operators
-- Arithmetic Operators  
-- Relational Operators  
-- Logical Operators  
-- Assignment Operators  
+- Arithmetic Operators
+- Relational (Comparison) Operators
+- Logical Operators
+- Assignment Operators
+- Chained Comparisons
 
-### 🔹 Problem Solving
-- Time Conversion  
-- EMI Calculation  
-- Compound Interest  
-- Run Rate Calculation  
-- Data Conversion  
+### 🔹 Real-World Problems
+- Time Conversion
+- EMI Calculation
+- Compound Interest
+- Run Rate Calculation
+- Student Grading Systems
+- And many more practical problems
 
 ---
 
 ## 🧪 Sample Code
 
 ```python
-# Logical Operators
-print(5 > 2 and 2 == 3)   # False
-print(10 < 20 < 30)       # True
+# Logical Operators & Chained Comparison
+print(5 > 2 and 2 == 3)      # False
+print(10 < 20 < 30)           # True
+print(3 < 4 != 2 < 5)         # True
 
-# Chained Comparison
-print(3 < 4 != 2 < 5)     # True
+# Real-world Example
+principal = 10000
+rate = 8.5
+time = 2
+amount = principal * (1 + rate/100) ** time
+print(f"Compound Interest Amount: ₹{amount:.2f}")
 ```
 
 ---
-⚡ Tech Stack
-<p align="center"> <img src="https://skillicons.dev/icons?i=python,git,github,vscode" /> </p>
 
-📊 GitHub Stats
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=AnilYadav17&show_icons=true&theme=tokyonight" /> <br/> <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnilYadav17&theme=tokyonight" /> </p>
+## ⚡ Tech Stack
 
-🔥 Highlights
-✔ Daily coding practice
-✔ Clean and structured code
-✔ Strong fundamentals
-✔ Real-world problems
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,git,github,vscode" />
+</p>
 
-👨‍💻 Author
+---
 
-Anil Yadav
+## 👨‍💻 Author
 
-🎯 BTech CSE Student
-💻 Learning Python & Cybersecurity
-🚀 Goal: Become a Skilled Developer
-⭐ Support
+**Anil Yadav**  
+BTech CSE Student  
+Learning Python | Cybersecurity | Web Development  
 
-If you like this project:
+---
 
-👉 Star ⭐ the repository
-👉 Follow for more updates
+## ⭐ Support
 
-💡 Motivation
+If you find this repository helpful:
 
-"Small daily improvements lead to big success."
+- **Star** ⭐ the repo
+- **Share** with fellow learners
+- **Follow** for more learning journeys
 
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,100:007BFF&height=120&section=footer"/> </p>
+---
+
+**"Small daily improvements lead to big success."** 💡
+
+---
+
+**Made with ❤️ for learning**
