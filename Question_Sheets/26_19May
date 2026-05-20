@@ -1,0 +1,213 @@
+1.  Bank Customer Account Privacy System
+
+A national bank is developing a secure customer portal where account
+numbers should not be displayed completely on the screen. For security
+reasons, the system should hide all digits except the last four digits
+before showing them to users.
+
+Conditions: - Display only the last 4 digits - Replace all previous
+characters with *
+
+Input: Enter account number: 123456789012
+
+Output: Masked Account: ********9012
+
+2.  Corporate Employee Short ID Generator
+
+A multinational company wants to automatically generate short IDs for
+employees while creating official email accounts. The system should take
+the employee’s full name and create an ID using the first character of
+each word.
+
+Conditions: - Take first character of every word - Convert all
+characters to uppercase
+
+Input: Enter employee name: ajay singh thakur
+
+Output: Employee Short ID: AST
+
+3.  Smart Chat Message Cleaner
+
+A social media company noticed that users often enter messages with
+unnecessary spaces. To improve readability and storage efficiency, the
+system should remove extra spaces and keep only a single space between
+words.
+
+Input: Enter message: Java is easy
+
+Output: Cleaned Message: Java is easy
+
+4.  Instant Messaging Word Encryption System
+
+A messaging application wants to temporarily encrypt messages during
+transmission. The encryption rule is to reverse every word individually
+while keeping the word positions unchanged.
+
+Input: Enter message: java is powerful
+
+Output: Encrypted Message: avaj si lufrewop
+
+5. Website URL Verification System
+
+A software company is developing an automated website registration
+portal. Before saving a website address, the system must verify whether
+the URL follows the required company format.
+
+Conditions: - Must start with www - Must end with .com
+
+Input: Enter website: www.amazon.com
+
+Output: Valid Website
+
+
+6.
+ Advanced Student Registration Data Processing System
+
+A national university is developing an intelligent registration portal.
+Students enter registration codes using uppercase letters, lowercase
+letters, digits, and special symbols. Due to inconsistent data entry,
+the administration wants the system to standardize and process the
+information before storing it.
+
+Conditions: - Ignore all special characters (@ # $ % & * - _) - Separate
+alphabets and digits - Convert all alphabets to lowercase - Remove
+duplicate alphabets - Arrange alphabets in ascending order - Arrange
+digits in descending order - Display alphabets first and digits later -
+If no digits are found, display “No Digits Found”
+
+Test Case 1 Input: Enter registration code: zBc@638
+
+Output: Result: bcz863
+
+Test Case 2 Input: Enter registration code: 5Br$dE654b
+
+Output: Result: bder6554
+
+Test Case 3 Input: Enter registration code: A9@C3d#6B1a
+
+Output: Result: abcd9631
+
+Test Case 4 Input: Enter registration code: X#X@M2A4x7
+
+Output: Result: amx742
+
+Test Case 5 Input: Enter registration code: r@T#y
+
+Output: Result: rty No Digits Found
+
+===================================================
+
+QNO 7:
+ Advanced Smart Chat Compression Expansion System
+
+A messaging application stores repeated characters in compressed form to
+reduce storage space. Before displaying messages to users, the system
+should reconstruct the original message.
+
+The application team has introduced additional rules.
+
+Conditions: - Alphabet followed by number - Repeat character according
+to the number - If alphabet is uppercase convert expanded characters
+into lowercase - Ignore special symbols - Display expanded string -
+Display total character count
+
+Test Case 1 Input: Enter compressed message: a3
+
+Output: Expanded Message: aaa
+
+Total Characters: 3
+
+Test Case 2 Input: Enter compressed message: A4b5
+
+Output: Expanded Message: aaaabbbbb
+
+Total Characters: 9
+
+Test Case 3 Input: Enter compressed message: x2Y3
+
+Output: Expanded Message: xxyyy
+
+Total Characters: 5
+
+Test Case 4 Input: Enter compressed message: m5@n2P4
+
+Output: Expanded Message: mmmmmnnpppp
+
+Total Characters: 11
+
+Test Case 5 Input: Enter compressed message: R3S2t5
+
+Output: Expanded Message: rrrssttttt
+
+Total Characters: 10
+
+
+QNo 8:--
+SMART TEXT PROCESSING SYSTEM
+
+A software company is developing a Smart Text Processing System for
+handling user messages. Different users require different text
+transformations. To avoid creating separate applications, the company
+wants a menu-driven program where users can select operations according
+to their requirements.
+
+The system should continue executing until the user selects Exit.
+
+====================================================== MENU
+======================================================
+
+===== Smart Text Processing System =====
+
+1.  Reverse Complete String
+2.  Reverse Every Word
+3.  Reverse Word Order
+4.  Exit
+
+====================================================== Choice 1 :
+
+Conditions: - Reverse the complete string - Ignore extra spaces - Keep
+special characters (@,#,$,%) in their original positions - Do not use
+built-in reverse functions
+
+Example: Input: ja@va#py
+
+Output: yp@av#aj
+
+Test Case 1: ab@cd#ef Output: fe@dc#ba
+
+Test Case 2: py@th#on Output: no@ht#yp
+
+Test Case 3: java@proOutput : orpa@vaj
+
+====================================================== Choice 2 :
+
+Conditions: - Reverse every word separately - Words containing digits
+should not be reversed - Ignore extra spaces between words - First
+letter of each reversed word should become uppercase
+
+Example: Input: java is easy123 programming
+
+Output: Avaj Si easy123 Gnimmargorp
+
+Test Case 1: python full stack22 developer Output: Nohtyp Lluf stack22
+Repoleved
+
+Test Case 2: hello java99 world Output: Olleh java99 Dlrow
+
+====================================================== Choice 3 :
+
+Conditions: - Reverse order of words - Remove duplicate words - Ignore
+case while checking duplicates - Keep only first occurrence
+
+Example: Input: Java python Java react Python
+
+Output: React Python Java
+
+Test Case 1: HTML CSS HTML Java CSS Output: Java CSS HTML
+
+Test Case 2: Python React Java Python React Output: Java React Python
+
+====================================================== Choice 4
+======================================================
+
+Program Closed Successfully
