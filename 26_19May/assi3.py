@@ -17,7 +17,6 @@ result =""
 # result=" ".join(ls)
 # print(result)
 
-#without using methods
-for i in range(len(message)):
-    if message.count(" ")>1:
-        print("More than two spaes")
+# #without using methods
+# for i in range(len(message)):
+#    

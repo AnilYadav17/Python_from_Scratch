@@ -122,8 +122,33 @@ while True:
             print("Result:",final)
         case 3:
             s1 = input("Enter String: ")
+
             lst1 = s1.split()
-            
-            for i in range(len(lest))
+
+            unique = []
+
+            # Remove duplicates (ignore case)
+            for word in lst1:
+
+                found = False
+
+                for item in unique:
+                    if word.lower() == item.lower():
+                        found = True
+                        break
+
+                if not found:
+                    unique.append(word)
+
+            # Reverse word order manually
+            result = ""
+
+            for i in range(len(unique)-1, -1, -1):
+                result += unique[i] + " "
+
+            print("Output:", result)
+        case 4:
+            break
+
         case _:
             print("Please enter a valid choice")
