@@ -14,16 +14,20 @@ Input:
 aabbccddefg
 Output: e'''
 
-s1 = input("Enter String: ")
-found=0
+s1 = input("Enter String: ").lower()
+found = 0
 
 for i in s1:
-    count=0
+    count = 0
+
     for j in s1:
-        if i==j:
-            count+=1
-            
-if count==1:
-        print("First Non Repeated character:",i)
-else:
+        if i == j:
+            count += 1
+
+    if count == 1:
+        print("First Non Repeated character:", i)
+        found = 1
+        break
+
+if found == 0:
     print("No non repeated character found")
