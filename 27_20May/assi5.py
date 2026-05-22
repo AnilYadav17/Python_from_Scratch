@@ -12,12 +12,11 @@ Input: aabbccdde
 Output: 5'''
 
 a = input("Enter String: ")
-count=0
 
-for i in a:
-    x=""
-    if x!=i:
-        x=i
-        count+=1
-    
-print(count)
+unique = ""
+
+for ch in a:
+    if ch not in unique:
+        unique += ch
+
+print("Number of unique characters:", len(unique))

@@ -1,0 +1,209 @@
+1. Smart Log File Error Pattern Detector
+
+A cybersecurity company stores server logs containing repeated system activity characters.
+
+To detect suspicious looping behavior, the analytics team wants a Python program that finds the longest repeating substring present in the log file.
+
+If multiple substrings have the same length, print the first one found.
+
+ Input:
+
+```text
+abcabcbb
+```
+
+Output:
+
+```text
+abc
+```
+
+---
+
+# 2. AI Auto-Correct Consecutive Word Remover
+
+An AI-powered typing assistant often captures duplicate consecutive words while converting speech into text.
+
+The company wants a Python program that removes only consecutive duplicate words while preserving the original sentence structure.
+
+### Input:
+
+```text
+hello hello hello team meeting meeting started
+```
+
+### Output:
+
+```text
+hello team meeting started
+```
+
+---
+
+# 3. Secure Banking Transaction Analyzer
+
+A banking server generates encrypted transaction IDs using letters and digits.
+
+The fraud detection team wants a Python program to find the first digit that does not repeat in the transaction ID.
+
+If no unique digit exists, print:
+
+```text
+No unique digit found
+```
+
+### Input:
+
+```text
+A122334455667789
+```
+
+### Output:
+
+```text
+8
+```
+
+---
+
+# 4. Cloud Storage Duplicate File Name Resolver
+
+A cloud storage company stores uploaded filenames from users.
+
+Sometimes multiple duplicate filenames are uploaded.
+
+The system should:
+
+* Keep the first occurrence unchanged
+* Add (1), (2), (3)... for duplicates
+
+### Input:
+
+```text
+file file image file image data
+```
+
+### Output:
+
+```text
+file file(1) image file(2) image(1) data
+```
+
+---
+
+# 5. Social Media Hashtag Trend Window
+
+A social media company wants to analyze the smallest substring containing all unique characters from a hashtag.
+
+### Input:
+
+```text
+aabcbcdbca
+```
+
+### Output:
+
+```text
+dbca
+```
+
+### Explanation:
+
+`dbca` contains all unique characters: a,b,c,d
+
+---
+
+# 6. AI Chat Toxic Pattern Detector
+
+An AI moderation system wants to detect whether a sentence contains three consecutive repeating characters.
+
+If found:
+
+```text
+Spam Pattern Found
+```
+
+Else:
+
+```text
+Clean Message
+```
+
+### Input:
+
+```text
+heyyy broooo welcome
+```
+
+### Output:
+
+```text
+Spam Pattern Found
+```
+
+---
+
+# 7. Enterprise Password Pattern Strength Analyzer
+
+A cybersecurity company wants to validate advanced passwords.
+
+## Conditions:
+
+* Minimum 10 characters
+* At least:
+
+  * 1 uppercase letter
+  * 1 lowercase letter
+  * 1 digit
+  * 1 special character
+* No consecutive repeating characters
+* No spaces allowed
+
+### Input:
+
+```text
+Pyth@n1234
+```
+
+### Output:
+
+```text
+Strong Password
+```
+
+### Input:
+
+```text
+Paaass@12
+```
+
+### Output:
+
+```text
+Weak Password
+```
+
+---
+
+# 8. Intelligent Search Query Compressor
+
+A search engine company wants to compress user queries.
+
+## Rules:
+
+* Count frequency of each character
+* Display characters in sorted order
+* Ignore spaces
+* Case insensitive
+
+### Input:
+
+```text
+Google Search
+```
+
+### Output:
+
+```text
+a1c1e2g2h1l1o2r1s1t1
+```

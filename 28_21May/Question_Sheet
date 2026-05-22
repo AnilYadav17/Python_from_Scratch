@@ -1,0 +1,131 @@
+1.
+Find the Longest Substring Without Repeating Characters
+Cybersecurity Session Tracking System
+
+A cybersecurity company monitors user session IDs generated during secure login sessions.
+
+To detect suspicious repeated patterns, the company wants a Python program that finds the longest substring containing no repeated characters.
+
+Input:
+abcabcbb
+Output:
+abc
+
+2.
+Find the Most Frequently Occurring Word
+News Channel Keyword Analyzer
+
+A news agency analyzes breaking news headlines to identify the most repeated keyword in a report.
+
+Write a Python program to find the word with the highest frequency.
+
+Input:
+india won the match and india created history
+Output:
+india
+
+3.
+Replace Consecutive Duplicate Characters with Single Character
+Data Compression System
+
+A cloud storage company wants to reduce unnecessary repeated characters in text logs.
+
+Write a Python program that replaces consecutive duplicate characters with a single occurrence.
+
+Input:
+aaabbbccccdddaa
+Output:
+abcda
+
+4.
+
+Find All Characters with Maximum Frequency
+Website Traffic Analysis System
+
+A web analytics company tracks user activity symbols in server logs.
+
+The company wants to identify all characters having the maximum frequency in the given string.
+
+Input:
+aabbbccddd
+Output:
+b d
+
+5.
+Cybercrime Log Analysis System
+
+A cybersecurity company monitors encrypted login activity stored as character-based security logs.
+
+During investigation, analysts need to identify the last character that repeats in the log sequence.
+This helps detect the most recent duplicated activity pattern before a possible security breach.
+
+Write a Python program to find the last repeating character in a given string.
+
+If no repeating character exists, print:
+
+No repeating character found
+Input:
+abccdbefga
+Output:
+a
+
+6.
+AI Voice-to-Text Correction System
+
+A company has developed an AI-based voice-to-text application for virtual meetings.
+
+Due to microphone disturbances and speech recognition delays, some words are captured multiple times consecutively in the generated text.
+
+Before saving the meeting transcript, the system must remove duplicate words while maintaining the original order of words.
+
+Write a Python program to remove repeated words from a sentence.
+
+Input:
+hello hello team team meeting meeting started
+Output:
+hello team meeting started
+
+7.
+Customer Feedback Analysis System
+
+An e-commerce company receives thousands of customer reviews every day for its products.
+
+To analyze customer opinions efficiently, the analytics team wants a Python program that counts how many times each word appears in a review message.
+
+This helps the company identify frequently used words such as:
+
+good
+bad
+delivery
+quality
+service
+
+Write a Python program to count the frequency of every word in a given sentence.
+
+Input:
+delivery was fast and delivery service was good
+Output:
+delivery : 2
+was : 2
+fast : 1
+and : 1
+service : 1
+good : 1
+8.
+AI Chat Moderation System
+
+A social media company is developing an AI-based chat moderation system that analyzes user messages in real time.
+
+During analysis, the system must identify special symmetric words (palindromes) because they are used as secret tags in internal testing.
+
+A palindrome word is a word that reads the same forward and backward.
+
+Write a Python program to find the first palindrome word present in the sentence.
+
+If no palindrome word exists, print:
+
+No palindrome word found
+Input:
+madam and arun went to level racecar station
+Output:
+madam
