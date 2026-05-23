@@ -57,8 +57,12 @@ for i in real_result.split():
     if count > maximum:
         maximum = count
         largest = i
+    
+if dup_result == "":
+    print("Unique Number")
 
-print("Repeated Digits:", real_result)
-print("Total Repeated Count =", len(dup_result))
-print("Max Frequency Digit =", largest)
-print("Repeated Pattern Detected")
+else:
+    print("Repeated Digits:", real_result)
+    print("Total Repeated Count =", len(dup_result))
+    print("Max Frequency Digit =", largest)
+    print("Repeated Pattern Detected")

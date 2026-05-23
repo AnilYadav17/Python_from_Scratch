@@ -73,19 +73,3 @@ threshold = int(input("Enter threshold value: "))
 processed = ""
 count=0
 sum=0
-
-for i in range(len(num)-1,-1,-1):
-    if sum<threshold:
-        processed+=str(num[i])+" "
-        sum+=int(num[i])
-        count+=1
-    else:
-        break
-
-print("Digit Processed: ",processed)
-print("Sum :",sum)
-print("Count: ",count)
-if threshold<sum:
-    print("Threshold exceed")
-else:
-    print("Threshold not reached")
