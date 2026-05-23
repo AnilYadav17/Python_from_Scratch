@@ -11,13 +11,16 @@ aaabbbccccdddaa
 Output:
 abcda'''
 
-
 s = input("Enter string: ")
-x=""
 result=""
 
 for i in s:
-    if i!=x:
-        
-
-print("Result: ",result)
+    count=0
+    for j in s:
+        if i==j:
+            count+=1
+    if count==1 or i not in result:
+        result+=i
+    else:
+        pass
+print(result)
