@@ -20,7 +20,6 @@ temp = ""
 output = ""
 
 for i in range(len(l1)):
-
     count = 0
 
     for j in range(i):

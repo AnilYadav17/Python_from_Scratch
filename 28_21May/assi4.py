@@ -28,11 +28,5 @@ for i in s:
         max=count
         output+=i
 
-for i in result:
-    count=0
-    for j in result:
-        if i==j:
-            count+=1
-    if count==1 or i not in output:
-        output+=i
-print(output)
+
+        
