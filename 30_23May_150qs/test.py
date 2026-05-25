@@ -15,6 +15,9 @@
 
 # print(count)
 
-s1 = "ab"
-l = list(s1)
-print(l)
+# s1 = "ab"
+# l = list(s1)
+# print(l)
+
+s="Anil"
+print(s[2:])
