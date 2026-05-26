@@ -1,7 +1,7 @@
 '''65.Count palindromic substrings.'''
 # S = "aaa"  -> 6 (a, a, a, aa, aa, aaa)
 
-
+#Remaining one :)
 s = input("Enter string: ")
 count=0
 

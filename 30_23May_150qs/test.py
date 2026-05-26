@@ -19,5 +19,17 @@
 # l = list(s1)
 # print(l)
 
-s="Anil"
-print(s[2:])
+# s="Anil"
+# print(s[2:])
+
+
+# students = ["deepika","rashmika","katappa"]
+# name= input("Enter name:")
+# if name in students:
+#     index=students.index(name)
+#     students[index]=name.upper()
+#     print(students)
+# else:
+#     print("Student not found")
+
+print(ord("t"))

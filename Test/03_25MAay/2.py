@@ -36,8 +36,10 @@ for i in range(n-2,-1,-1):
                 print("*",end="")
 	print()'''
 
-n = int(input("Enter Number:"))
 
+
+
+n = int(input("Enter Number:"))
 for i in range(1,n+1):
         for space in range(n-i):
                 print(" ",end="")

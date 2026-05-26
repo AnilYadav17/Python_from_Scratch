@@ -1,0 +1,78 @@
+What are the key features of Python?
+Why is Python called an interpreted language?
+What is the difference between compiled and interpreted languages?
+What makes Python dynamically typed?
+Why is Python platform independent?
+What is the advantage of Python being a high-level language?
+What are the limitations of Python?
+How does Python execute a program internally?
+What is bytecode in Python?
+What is PVM (Python Virtual Machine)?
+What is the difference between source code, bytecode, and machine code?
+Does Python compile code before execution?
+Where is bytecode stored?
+Is Python fully interpreted? Explain.
+What is compilation in Python?
+What is parsing in Python?
+What is a parse tree?
+What is Abstract Syntax Tree (AST)?
+Difference between parse tree and AST?
+What role does AST play in Python execution?
+What is the compilation pipeline in Python?
+What are the steps from source code to execution in Python?
+What is lexical analysis in Python?
+What is syntax analysis in Python?
+What happens if there is a syntax error during parsing?
+What is code object in Python?
+What is .pyc file in Python?
+When are .pyc files created?
+What is the purpose of pycache folder?
+Does Python recompile code every time? Explain.
+What are built-in data types in Python?
+What is the difference between mutable and immutable types?
+Why are strings immutable?
+What is None type in Python?
+Can Python store multiple data types in a single variable?
+What is type casting in Python?
+What is the difference between implicit and explicit conversion?
+Give examples of implicit type conversion.
+What happens when you convert float to int?
+Can we always convert string to int?
+What error occurs if type conversion fails?
+What is the difference between input() and print()?
+Why does input() always return a string?
+How can you take integer input from the user?
+What are sep and end parameters in print()?
+How can you take multiple inputs in one line?
+How do you format output in Python?
+What is the difference between / and // ?
+What is the use of % operator?
+What is the use of ** operator?
+Why is ^ not used as a power operator in Python?
+What are assignment operators in Python?
+What is the difference between = and == ?
+What does += operator do internally?
+What is the output of 5 > 3 > 1 ?
+Can relational operators be chained in Python?
+What is a variable in Python?
+Why is there no need to declare variable type in Python?
+Can we change the data type of a variable dynamically?
+What is multiple assignment in Python?
+How can you swap two variables without using a third variable?
+What are identifiers in Python?
+What are the rules for naming identifiers?
+Can an identifier start with a number?
+What is the difference between identifier and keyword?
+Is Python case-sensitive for identifiers?
+Who developed Python?
+When was Python first released?
+Why was Python created?
+Why is Python named “Python”?
+What are the major versions of Python?
+Why was Python 2 discontinued?
+What is the output of: print(True + True)
+What is the output of: print(10 and 0 or 5)
+What is the output of: print(5 > 3 > 2)
+What is the output of: print(bool(""))
+What is the output of: print(10 / 3)
+What is the output of: print(10 // 3)
