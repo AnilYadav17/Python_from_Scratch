@@ -32,4 +32,15 @@
 # else:
 #     print("Student not found")
 
-print(ord("t"))
+# print(ord("t"))
+
+
+s = input("Enter string: ")
+stack=""
+for i in s:
+    if len(stack)>0 and stack[-1]==i:
+        stack=stack[:-1]
+    else:
+        stack+=i
+
+print(stack) 
