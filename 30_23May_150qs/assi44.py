@@ -9,7 +9,7 @@ if len(s1)!=len(s2):
     flag=0
 else:
     for i in range(len(s1)):
-        if s1[i] not in s2:
+        if s1[i] not in s2 and s2[i] not in s1:
             flag=0
         else:
             flag=1
