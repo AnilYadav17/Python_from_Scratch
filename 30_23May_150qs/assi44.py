@@ -3,7 +3,9 @@
 
 s1 = input("Enter string1: ")
 s2 = input("Enter string2: ")
+visited=[]
 flag=0
+
 
 if len(s1)!=len(s2):
     flag=0
