@@ -49,7 +49,6 @@ arr=[]
 for i in range(n):
     x=int(input(f"{i+1} Elevation value: "))
     arr.append(x)
-
 arr1= arr.copy()
 
 peak_index=-1
@@ -57,11 +56,9 @@ for i in range(n):
     if i==0:
         if n==1 or arr1[i]>=arr1[i+1]:
             peak_index=i
-
     elif i==n-1:
         if arr1[i]>=arr1[i-1]:
             peak_index=i
-    
     else:
         if arr1[i]>=arr1[i-1] and arr1[i]>=arr1[i+1]:
             peak_index=i
