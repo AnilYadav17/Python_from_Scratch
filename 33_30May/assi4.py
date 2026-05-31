@@ -34,7 +34,6 @@ arr1=[]
 for i in range(n):
     x=int(input(f"{i+1}. Elemenet: "))
     arr1.append(x)
-arr=arr1.copy()
 arr1.sort()
 
 count=1
