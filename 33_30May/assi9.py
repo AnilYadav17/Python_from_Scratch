@@ -136,31 +136,65 @@ Largest Happy Number = Not Available
 #             print("Not Happy")
 #             break
 
-#Taking input from user
+# #Taking input from user
+# n = int(input("Enter length of numbers: "))
+# arr=[]
+# for i in range(n):
+#     x=int(input(f"{i+1}. Elemenet: "))
+#     arr.append(x)
+
+# happy_numbers=[]
+# for a in arr:
+#     total_sum = 0
+#     for i in str(a):
+#         total_sum += int(i)**2
+
+#     for j in str(total_sum):
+#         if len(str(total_sum))>1:
+#             temp_sum = 0 
+#             for digit in str(total_sum):
+#                 temp_sum += int(digit)**2
+#             total_sum = temp_sum
+#         else:
+#             if j == "1":
+#                 happy_numbers.append(a)
+#                 break
+#             else:
+#                 break
+            
+# print(happy_numbers)
+
+
+# Taking input from user
 n = int(input("Enter length of numbers: "))
-arr=[]
+
+arr = []
 for i in range(n):
-    x=int(input(f"{i+1}. Elemenet: "))
+    x = int(input(f"{i+1}. Element: "))
     arr.append(x)
 
-happy_numbers=[]
-for a in arr:
-    total_sum = 0
-    for i in str(a):
-        total_sum += int(i)**2
+happy_numbers = []
 
-    for j in str(total_sum):
-        if len(str(total_sum))>1:
-            temp_sum = 0 
-            for digit in str(total_sum):
-                temp_sum += int(digit)**2
-            total_sum = temp_sum
-        else:
-            if j == "1":
-                happy_numbers.append(a)
-                break
-            else:
-                break
-            
+for num in arr:
+    current = num
+    visited = []
 
-print(happy_numbers)
+
+happy_numbers = []
+
+for num in arr:
+    current = num
+    visited = []
+    while current != 1 and current not in visited:
+        visited.append(current)
+
+        total_sum = 0
+        for digit in str(current):
+            total_sum += int(digit) ** 2
+
+        current = total_sum
+
+    if current == 1:
+        happy_numbers.append(num)
+
+print("Happy Numbers:", happy_numbers)

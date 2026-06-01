@@ -31,18 +31,18 @@ for i in range(n):
     arr.append(x)
 
 #first unique
-f_repeat=-1
-for i in arr:
-    count=0
-    for j in arr:
-        if i==j:
-            count+=1
-    if count>1:
-        f_repeat=i
+
+f_repeat = -1
+
+for i in range(len(arr)):
+    for j in range(i + 1, len(arr)):
+        if arr[i] == arr[j]:
+            f_repeat = arr[i]
+            break
+    if f_repeat != -1:
         break
 
-if f_repeat!=-1:
-    print(f"First repeating number = {f_repeat}")
+if f_repeat != -1:
+    print(f"First Repeating Number = {f_repeat}")
 else:
-    print(f"No repeating number found")
-
+    print("No Repeating Number Found")

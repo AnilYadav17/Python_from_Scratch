@@ -28,6 +28,7 @@ Output:
 No Majority Element Found'''
 
 
+
 n = int(input("Enter length of sequence: "))
 arr1=[]
 for i in range(n):
