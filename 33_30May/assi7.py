@@ -33,16 +33,11 @@ Output:
 
 #Taking input from user
 n = int(input("Enter length of numbers: "))
+k = int(input("Enter key: "))
 arr=[]
 for i in range(n):
     x=int(input(f"{i+1}. Elemenet: "))
     arr.append(x)
 
-last=arr[n-1]
-
-while i>0:
-    arr[i]=arr[i-1]
-    i=i-1
-
-arr[0]=last
-print(arr)
+rotated= arr[-k:]+arr[:-k] #[-K:] -> Gives last , [:-k] -> Gives except last
+print(rotated)
