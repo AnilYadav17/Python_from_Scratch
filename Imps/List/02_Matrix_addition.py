@@ -38,6 +38,7 @@ for i in range(rows):
 #     for j in range(len(matrix1[i])):
 #         matrix3[i][j]=matrix1[i][j]+matrix2[i][j]
 
+#                                       Without Using 0 Append
 matrix3=[]
 for i in range(rows):
     row=[]

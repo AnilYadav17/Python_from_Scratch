@@ -1,14 +1,19 @@
 '''93 Match strings with wildcard characters ($\*$, ?).'''
 #Pattern = "a?c", Text = "axcde"   -> TRUE
 
+
+
 p = input("Enter pattern: ")
 t = input("Enter text: ")
-ch = input("")
-symbol = "$\*, ?"
 
-for i in p:
-    for j in t:
-        if i==j:
+if len(p) > len(t):
+    print("FALSE")
+else:
+    match = True
 
+    for i in range(len(p)):
+        if p[i] != '?' and p[i] != t[i]:
+            match = False
+            break
 
-INCOMPLETE
+    print("TRUE" if match else "FALSE")
