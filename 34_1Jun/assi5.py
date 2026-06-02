@@ -159,12 +159,20 @@ for i in matrix:
     row_sum.append(sum)
     total+=sum
     print()
+print()
+
+max_sum = row_sum[0]
+max_row = 0
 
 for i in range(len(row_sum)):
     print(f"Row {i+1} Sum = {row_sum[i]}")
-print()
 
+    if row_sum[i] > max_sum:
+        max_sum = row_sum[i]
+        max_row = i
+print()
 for i in range(len(row_sum)):
     print(f"Row {i+1} Average = {row_sum[i]/cols}")
 print()
+print(f"Row with maximum Sum {max_row+1}")
 print(f"Grand Total = {total}")
