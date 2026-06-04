@@ -40,7 +40,7 @@ n = int(input("Enter number of Employees: "))
 matrix=[]
 for i in range(n):
     row=[]
-    row.append(list(map(int,input(f"Enter Employee{i+1} per month score: ").split())))
+    row = list(map(int,input(f"Enter Employee{i+1} per month score: ").split()))
     matrix.append(row)
 
 while True:
@@ -54,14 +54,51 @@ Menu
     choice = int(input("Enter choice: "))
     match choice:
         case 1:
-            highest=matrix[0][0]
-            highest_employee=1
-            for i in range(len(matrix)):
-                r_sum=0
-                for j in range(len(matrix[i])):
-                    r_sum+=matrix[i][j]
-                if i==0 or r_sum>highest:
-                    highest=r_sum
-                    highest_employee=i+1
-            print(f"Employee {highest_employee} has Highest Total Score = {r_sum}")
+            highest = sum(matrix[0])
+            highest_employee = 1
 
+            for i in range(len(matrix)):
+                r_sum = sum(matrix[i])
+
+                if r_sum > highest:
+                    highest = r_sum
+                    highest_employee = i + 1
+
+            print(f"Employee {highest_employee} has Highest Total Score = {highest}")
+
+        case 2:
+            months = len(matrix[0])
+
+            lowest_avg = None
+            lowest_month = None
+
+            for j in range(months):
+                col_sum = 0
+
+                for i in range(len(matrix)):
+                    col_sum += matrix[i][j]
+
+                avg = col_sum / len(matrix)
+
+                print(f"Month {j+1} Average = {avg}")
+
+                if lowest_avg is None or avg < lowest_avg:
+                    lowest_avg = avg
+                    lowest_month = j + 1
+
+            print(f"\nMonth {lowest_month} has Lowest Average Score = {lowest_avg}")
+
+        case 3:
+            print()
+
+            for i in range(len(matrix)):
+                print(f"Employee {i+1} Max Score = {max(matrix[i])}")
+
+        case 4:
+            print("Exiting Program...")
+            break
+
+        case _:
+            print("Invalid Choice!")
+
+            
