@@ -63,4 +63,231 @@ Requirements
 7. Choice 4 - Exit
    --------------------------------
    Display:
-   "Thank You for Using Matrix Operations Management System'''
+   "Thank You for Using Matrix Operations Management System"
+
+---------------------------------------------------------
+Sample Input/Output
+---------------------------------------------------------
+
+Menu
+1. Add Two Matrices
+2. Subtract Two Matrices
+3. Compare Two Matrices
+4. Exit
+
+Enter your choice: 1
+
+Enter number of rows: 2
+Enter number of columns: 2
+
+Enter Matrix A:
+1 2
+3 4
+
+Enter Matrix B:
+5 6
+7 8
+
+Result Matrix:
+6 8
+10 12
+
+---------------------------------------------------------
+
+Menu
+1. Add Two Matrices
+2. Subtract Two Matrices
+3. Compare Two Matrices
+4. Exit
+
+Enter your choice: 3
+
+Enter number of rows: 2
+Enter number of columns: 2
+
+Enter Matrix A:
+1 2
+3 4
+
+Enter Matrix B:
+1 2
+3 4
+
+Output:
+Matrices are Equal
+
+---------------------------------------------------------
+
+Menu
+1. Add Two Matrices
+2. Subtract Two Matrices
+3. Compare Two Matrices
+4. Exit
+
+Enter your choice: 4
+
+Output:
+Thank You for Using Matrix Operations Management System
+
+========================================================'''
+
+
+while True:
+   print("""\n=========================================================
+        MATRIX OPERATIONS MANAGEMENT SYSTEM
+=========================================================
+1. Add Two Matrices
+2. Subtract Two Matrices
+3. Compare Two Matrices
+4. Exit""")
+   choice  = int(input("Enter your choice: "))
+   match (choice):
+      case 1:
+         rows = int(input("Enter number of Rows: "))
+         cols = int(input("Enter number of columns: "))
+
+         matrix1=[]
+         #taking input elements from user for matrix1
+         for i in range(rows):
+            row=[]
+            for j in range(cols):
+               row.append(int(input(f"{j+1} Element: ")))
+            matrix1.append(row)
+
+
+         matrix2=[]
+         #taking input elements from user for matrix1
+         for i in range(rows):
+            row=[]
+            for j in range(cols):
+               row.append(int(input(f"{j+1} Element: ")))
+            matrix2.append(row)
+
+         result=[]
+         for i in range(len(matrix1)):
+            row=[]
+            for j in range(len(matrix1[i])):
+               row.append(matrix1[i][j]+matrix2[i][j])
+            result.append(row)
+         
+         print("\nMatrix1: ")
+         for i in matrix1:
+            for j in i:
+               print(j,end=" ")
+            print()
+         
+         print("\nMatrix2: ")
+         for i in matrix2:
+            for j in i:
+               print(j,end=" ")
+            print()
+         
+         print("\nAddition: ")
+         for i in result:
+            for j in i:
+               print(j,end=" ")
+            print()
+
+      case 2:
+         rows = int(input("Enter number of Rows: "))
+         cols = int(input("Enter number of columns: "))
+
+         matrix1=[]
+         #taking input elements from user for matrix1
+         for i in range(rows):
+            row=[]
+            for j in range(cols):
+               row.append(int(input(f"{j+1} Element: ")))
+            matrix1.append(row)
+
+
+         matrix2=[]
+         #taking input elements from user for matrix1
+         for i in range(rows):
+            row=[]
+            for j in range(cols):
+               row.append(int(input(f"{j+1} Element: ")))
+            matrix2.append(row)
+
+         result=[]
+         for i in range(len(matrix1)):
+            row=[]
+            for j in range(len(matrix1[i])):
+               row.append(matrix2[i][j]-matrix1[i][j])
+            result.append(row)
+         
+         print("\nMatrix1: ")
+         for i in matrix1:
+            for j in i:
+               print(j,end=" ")
+            print()
+         
+         print("\nMatrix2: ")
+         for i in matrix2:
+            for j in i:
+               print(j,end=" ")
+            print()
+         
+         print("\nSubstraction: ")
+         for i in result:
+            for j in i:
+               print(j,end=" ")
+            print()
+      case 3:
+         equal=True
+         rows = int(input("Enter number of Rows: "))
+         cols = int(input("Enter number of columns: "))
+
+         matrix1=[]
+         #taking input elements from user for matrix1
+         for i in range(rows):
+            row=[]
+            for j in range(cols):
+               row.append(int(input(f"{j+1} Element: ")))
+            matrix1.append(row)
+
+
+         matrix2=[]
+         #taking input elements from user for matrix1
+         for i in range(rows):
+            row=[]
+            for j in range(cols):
+               row.append(int(input(f"{j+1} Element: ")))
+            matrix2.append(row)
+
+         
+         print("\nMatrix1: ")
+         for i in matrix1:
+            for j in i:
+               print(j,end=" ")
+            print()
+         
+         print("\nMatrix2: ")
+         for i in matrix2:
+            for j in i:
+               print(j,end=" ")
+            print()
+         
+         for i in range(rows):
+            for j in range(cols):
+               if matrix1[i][j] != matrix2[i][j]:
+                   equal = False
+                   break 
+         if not equal:
+            break  
+
+         # Final Output
+         print()
+         if equal:
+            print("Matrices are equal")
+         else:
+            print("Matrices are not equal")
+
+         # if equal==True:
+         #     print("Matrices are equal")
+         # else:
+         #    print("Matrices are not equal")
+
+      case 4:
+         print("Thank You for Using Matrix Operations Management System")
+         break
