@@ -1,0 +1,390 @@
+=====================================================================
+QUESTION 1: EMPLOYEE SALARY ANALYSIS
+====================================
+
+A company wants to store employee details and generate salary reports using NamedTuple.
+
+Fields:
+emp_id, emp_name, department, salary
+
+Requirements:
+
+1. Read N employee details from the user and store them in a list of NamedTuples.
+
+---
+
+2. Display all employee details.
+
+---
+
+3. Find and display the employee with the highest salary.
+
+---
+
+4. Find and display the employee with the lowest salary.
+
+---
+
+5. Calculate and display the average salary of all employees.
+
+---
+
+6. Accept a department name from the user and display all employees belonging to that department.
+
+---
+
+Test Case:
+
+Input:
+Enter number of employees: 4
+
+101 Rahul IT 50000
+102 Priya HR 45000
+103 Amit IT 70000
+104 Neha Finance 60000
+
+Enter department: IT
+
+Expected Output:
+Highest Salary Employee:
+103 Amit IT 70000
+
+Lowest Salary Employee:
+102 Priya HR 45000
+
+Average Salary:
+56250.0
+
+Employees in IT Department:
+101 Rahul IT 50000
+103 Amit IT 70000
+
+=====================================================================
+QUESTION 2: STUDENT RESULT PROCESSING
+=====================================
+
+A training institute wants to manage student records using NamedTuple.
+
+Fields:
+roll_no, name, course, marks
+
+Requirements:
+
+1. Read N student records from the user and store them in a list of NamedTuples.
+
+---
+
+2. Display all student details.
+
+---
+
+3. Find and display the topper of the class.
+
+---
+
+4. Count and display the number of students scoring above 80 marks.
+
+---
+
+5. Calculate and display the average marks.
+
+---
+
+6. Accept a course name from the user and display all students enrolled in that course.
+
+---
+
+Test Case:
+
+Input:
+Enter number of students: 4
+
+1 Ravi Python 85
+2 Anjali Java 78
+3 Karan Python 92
+4 Pooja Testing 88
+
+Enter course: Python
+
+Expected Output:
+Topper:
+3 Karan Python 92
+
+Students Above 80:
+3
+
+Average Marks:
+85.75
+
+Students in Python Course:
+1 Ravi Python 85
+3 Karan Python 92
+
+=====================================================================
+QUESTION 3: HOSPITAL PATIENT TRACKER
+====================================
+
+A hospital stores patient records for daily monitoring.
+
+Fields:
+patient_id, patient_name, age, disease
+
+Requirements:
+
+1. Read N patient records from the user and store them in a list of NamedTuples.
+
+---
+
+2. Display all patient details.
+
+---
+
+3. Display patients whose age is above 60 years.
+
+---
+
+4. Search for a patient using Patient ID.
+
+---
+
+5. Count the number of patients suffering from a particular disease.
+
+---
+
+Test Case:
+
+Input:
+Enter number of patients: 4
+
+P101 Rajesh 65 Diabetes
+P102 Suman 45 Fever
+P103 Mohan 70 Diabetes
+P104 Rita 35 Cold
+
+Enter Patient ID: P103
+Enter Disease: Diabetes
+
+Expected Output:
+Patient Found:
+P103 Mohan 70 Diabetes
+
+Patients Above 60:
+P101 Rajesh 65 Diabetes
+P103 Mohan 70 Diabetes
+
+Patients with Diabetes:
+2
+
+=====================================================================
+QUESTION 4: ONLINE SHOPPING ORDERS
+==================================
+
+An online shopping company stores customer orders using NamedTuple.
+
+Fields:
+order_id, customer_name, product_name, amount
+
+Requirements:
+
+1. Read N order records from the user and store them in a list of NamedTuples.
+
+---
+
+2. Display all order details.
+
+---
+
+3. Find and display the order having the highest amount.
+
+---
+
+4. Calculate and display total sales.
+
+---
+
+5. Count the number of orders whose amount is greater than ₹10,000.
+
+---
+
+Test Case:
+
+Input:
+Enter number of orders: 5
+
+O101 Rahul Laptop 55000
+O102 Priya Mouse 800
+O103 Amit Mobile 25000
+O104 Neha Keyboard 1500
+O105 Rakesh TV 45000
+
+Expected Output:
+Highest Value Order:
+O101 Rahul Laptop 55000
+
+Total Sales:
+127300
+
+Orders Above ₹10,000:
+3
+
+=====================================================================
+QUESTION 5: LIBRARY BOOK RECORDS
+================================
+
+A library maintains book information using NamedTuple.
+
+Fields:
+book_id, title, author, price
+
+Requirements:
+
+1. Read N book records from the user and store them in a list of NamedTuples.
+
+---
+
+2. Display all book details.
+
+---
+
+3. Find and display the most expensive book.
+
+---
+
+4. Search books by author name.
+
+---
+
+5. Calculate and display the average price of all books.
+
+---
+
+Test Case:
+
+Input:
+Enter number of books: 4
+
+B101 Python Basics John 450
+B102 Java Programming James 550
+B103 Data Science John 700
+B104 SQL Guide Smith 300
+
+Enter Author Name: John
+
+Expected Output:
+Most Expensive Book:
+B103 Data Science John 700
+
+Average Book Price:
+500.0
+
+Books Written By John:
+B101 Python Basics John 450
+B103 Data Science John 700
+
+
+6.
+
+NOTE: using tuple only
+An electronics store wants to maintain product information. Since product details should not be modified accidentally,
+ each product record is stored as a tuple.
+
+Tuple Format:
+
+(product_id, product_name, price)
+
+Requirements:
+
+Read N product details from the user and store them as tuples in a list.
+Display all product details.
+Find and display the costliest product.
+Find and display the cheapest product.
+Calculate and display the average price of all products.
+Display all products whose price is greater than ₹50,000.
+
+Test Case:
+
+Input:
+
+Enter number of products: 4
+
+P101 Laptop 65000
+P102 Mobile 25000
+P103 Television 80000
+P104 Tablet 30000
+
+Expected Output:
+
+All Products:
+('P101', 'Laptop', 65000)
+('P102', 'Mobile', 25000)
+('P103', 'Television', 80000)
+('P104', 'Tablet', 30000)
+
+Costliest Product:
+('P103', 'Television', 80000)
+
+Cheapest Product:
+('P102', 'Mobile', 25000)
+
+Average Price:
+50000.0
+
+Products Above ₹50,000:
+('P101', 'Laptop', 65000)
+('P103', 'Television', 80000)
+
+7.
+
+A cricket academy wants to analyze player performance. Each player's information is stored as a tuple.
+
+Tuple Format:
+
+(player_id, player_name, runs_scored)
+
+Requirements:
+
+Read N player records from the user and store them as tuples in a list.
+Display all player records.
+Find and display the player who scored the highest runs.
+Find and display the player who scored the lowest runs.
+Calculate and display the total runs scored by all players.
+Calculate and display the average runs scored.
+Display players who scored more than 50 runs.
+
+Test Case:
+
+Input:
+
+Enter number of players: 5
+
+101 Virat 82
+102 Rohit 45
+103 Gill 120
+104 Hardik 38
+105 SKY 76
+
+Expected Output:
+
+All Players:
+(101, 'Virat', 82)
+(102, 'Rohit', 45)
+(103, 'Gill', 120)
+(104, 'Hardik', 38)
+(105, 'SKY', 76)
+
+Highest Scorer:
+(103, 'Gill', 120)
+
+Lowest Scorer:
+(104, 'Hardik', 38)
+
+Total Runs:
+361
+
+Average Runs:
+72.2
+
+Players Scoring More Than 50 Runs:
+(101, 'Virat', 82)
+(103, 'Gill', 120)
+(105, 'SKY', 76)
