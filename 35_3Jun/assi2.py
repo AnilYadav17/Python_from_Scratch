@@ -184,15 +184,13 @@ while True:
             count = 0
             for j in range(len(matrix1)):
                val = matrix1[j][i]
-               if val > 1:
-                  is_prime = True
-                  for k in range(2, val):
-                     if val % k == 0:
-                        is_prime = False
-                        break
-                  if is_prime:
-                     count += 1
-            print(f"{i+1} Column Prime Number Count: {count}")
+               d_sum=0
+               for k in range(1,val):
+                  if val%k==0:
+                     d_sum+=k
+               if d_sum==val:
+                  count+=1
+            print(f"{i+1} Column Perfect  Number Count: {count}")
       
       case 3:
          rows = int(input("Enter number of Rows: "))
