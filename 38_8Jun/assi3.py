@@ -40,10 +40,10 @@ Menu:
     case 1:
       n = int(input("Enter number of visitors: "))
       for i in range(n):
-        visitor.add(input(f"Enter {i+1} visitor name: "))
+        visitor.add(input(f"Enter {i+1} visitor ID: "))
       
     case 2:
-      t = input("Enter name of visitor: ")
+      t = input("Enter ID of visitor: ")
       for i in visitor:
         if i==t:
           visitor.remove(i)
@@ -53,7 +53,7 @@ Menu:
           print(f"{t} not found in Visitors list")
     
     case 3:
-      t = input("Enter name of visitor: ")
+      t = input("Enter ID of visitor: ")
       if t in visitor:
         print("Valid visitor")
       else:
@@ -73,4 +73,7 @@ Menu:
     case 7:
       print("Thanks for visiting VISITOR TRACKING SYSTEM ")
       break
+
+    case _:
+      print("Invalid choice")
         

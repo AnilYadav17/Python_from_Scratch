@@ -95,3 +95,6 @@ Menu:
         case 10:
             print("Thanks for visiting ONLINE COURSE MANAGEMENT SYSTEM")
             break
+        
+        case _:
+          print("Invalid choice")
