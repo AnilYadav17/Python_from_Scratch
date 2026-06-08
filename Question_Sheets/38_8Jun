@@ -1,0 +1,179 @@
+1.
+=========================================
+STUDENT CLUB MEMBERSHIP SYSTEM
+=========================================
+
+A college has two clubs:
+1. Coding Club
+2. Robotics Club
+
+Store student IDs of both clubs using sets.
+
+Menu:
+1. Add Student to Coding Club
+2. Add Student to Robotics Club
+3. Display Students in Coding Club
+4. Display Students in Robotics Club
+5. Find Students in Both Clubs
+6. Find Students Only in Coding Club
+7. Find Students Only in Robotics Club
+8. Display All Unique Club Members
+9. Display Total Unique Club Members
+10. Exit
+
+Requirements:
+- Use two sets.
+- Apply intersection, difference, and union operations.
+
+2.
+=========================================
+ONLINE COURSE ENROLLMENT SYSTEM
+=========================================
+
+An institute offers:
+1. Python Course
+2. Java Course
+
+Store enrolled student email IDs using sets.
+
+Menu:
+1. Enroll Student in Python
+2. Enroll Student in Java
+3. Display Python Students
+4. Display Java Students
+5. Find Students Enrolled in Both Courses
+6. Find Students Enrolled Only in Python
+7. Find Students Enrolled Only in Java
+8. Check Enrollment in Python Course
+9. Display Total Unique Students
+10. Exit
+
+Requirements:
+- Use two sets.
+- Use membership operator (in).
+- Use union, intersection and difference operations.
+
+3.
+=========================================
+WEBSITE VISITOR TRACKING SYSTEM
+=========================================
+
+A website stores unique visitor IDs.
+
+Menu:
+1. Add Visitor
+2. Remove Visitor
+3. Check Visitor
+4. Display All Visitors
+5. Count Unique Visitors
+6. Clear Visitor Data
+7. Exit
+
+Requirements:
+- Use a set to store visitor IDs.
+- Duplicate visitor IDs should not be stored.
+- Use add(), remove(), and membership operations.
+
+4.
+=========================================
+FROZEN SET SUBJECT MANAGEMENT
+=========================================
+
+An institute offers fixed subjects:
+
+Python
+Java
+MySQL
+React
+Spring Boot
+
+These subjects cannot be modified after creation.
+
+Menu:
+1. Display Subjects
+2. Search Subject
+3. Count Subjects
+4. Attempt to Add Subject
+5. Exit
+
+Requirements:
+- Use Frozen Set.
+- Show that modification is not allowed.
+
+5.
+=========================================
+LIBRARY ISBN MANAGER
+=========================================
+
+A library stores unique ISBN numbers of books.
+
+Menu:
+1. Add ISBN
+2. Remove ISBN
+3. Search ISBN
+4. Display ISBN List
+5. Count Books
+6. Exit
+
+Requirements:
+- Use Set.
+- Duplicate ISBNs are not allowed.
+
+6.
+
+=========================================
+COMMON CHARACTER FINDER
+=========================================
+
+Enter two strings and find common characters.
+
+Menu:
+1. Enter First String
+2. Enter Second String
+3. Display Common Characters
+4. Count Common Characters
+5. Exit
+
+Example:
+String1: python
+String2: typhoon
+
+Output:
+{p, t, h, o, n}
+
+7.
+=========================================
+MISSING ALPHABET FINDER
+=========================================
+
+Enter a sentence and find which
+alphabets are missing.
+
+Menu:
+1. Enter Sentence
+2. Display Missing Alphabets
+3. Count Missing Alphabets
+4. Exit
+
+Requirements:
+- Use Set containing a-z.
+
+8.
+=========================================
+ALLOWED CHARACTER VALIDATOR
+=========================================
+
+Allowed characters are:
+A-Z, a-z, 0-9
+
+Store allowed characters in a Frozen Set.
+
+Menu:
+1. Enter Username
+2. Validate Username
+3. Display Allowed Characters
+4. Exit
+
+Requirements:
+- Use Frozen Set.
+- Username should contain only allowed characters.

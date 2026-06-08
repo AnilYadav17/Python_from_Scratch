@@ -1,0 +1,7 @@
+str=input("Enter string: ")
+words = str.split()
+u=set(words)
+print(len(u),u)
+l1 = list(u)
+s1 = " ".join(l1)
+print(s1)
