@@ -17,12 +17,19 @@ Output: [[1]]'''
 
 nums = [1,2,3]
 
-if len(nums) == 1:
-	return [nums]
 
 result = []
 
 for i in range(len(nums)):
-	current = nums[i]
-	remaining = nums[:i] + nums[i+1:]
-	print(current,remaining)
+	current=list(nums[i])
+	
+	remaining=[]
+	for  j in nums:
+		if j != current:
+			remaining.append(j)
+
+	print(current+remaining)
+
+
+
+						!!!!!!!!!  INCOMPLETE !!!!!!!!!
