@@ -1,0 +1,302 @@
+1.
+
+=========================================
+ONLINE SHOPPING CART
+====================
+
+A shopping website stores purchased products in a dictionary where:
+Key = Product Name
+Value = Quantity Purchased
+
+Write a program to:
+
+* Accept a dictionary from the user.
+* Calculate and display the total quantity of products purchased.
+
+Sample Input:
+{"Laptop":2,"Mouse":3,"Keyboard":1}
+
+Sample Output:
+Total Quantity = 6
+
+---
+
+2.
+
+=========================================
+EMPLOYEE DEPARTMENT COUNT
+=========================
+
+A company stores employee department names in a list.
+
+employees = ["HR","IT","HR","Sales","IT","IT","Finance"]
+
+Write a program to:
+
+* Count how many employees belong to each department.
+* Store the result in a dictionary.
+
+Sample Output:
+{'HR': 2, 'IT': 3, 'Sales': 1, 'Finance': 1}
+
+---
+
+3.
+
+=========================================
+WEBSITE PAGE VISIT TRACKER
+==========================
+
+A website records page visits.
+
+pages = ["Home","About","Home","Contact","Home","About"]
+
+Write a program to:
+
+* Count visits of each page using a dictionary.
+* Display page name and visit count.
+
+Sample Output:
+Home visited 3 times
+About visited 2 times
+Contact visited 1 time
+
+---
+
+4.
+
+=========================================
+STUDENT GRADE ANALYSIS
+======================
+
+Store student marks in a dictionary.
+
+students = {
+"Ajay":78,
+"Ravi":92,
+"Neha":85,
+"Aman":65
+}
+
+Write a program to:
+
+* Find the student with highest marks.
+* Find the student with lowest marks.
+
+Sample Output:
+Highest Marks : Ravi 92
+Lowest Marks : Aman 65
+
+---
+
+5.
+
+=========================================
+WORD LENGTH GROUPING
+====================
+
+A content management system stores article tags.
+
+tags = ["python","java","api","react","html","css"]
+
+Write a program to:
+
+* Group words according to their length.
+* Store result in dictionary.
+
+Sample Output:
+{
+3:['api','css'],
+4:['java','html'],
+5:['react'],
+6:['python']
+}
+
+---
+
+6.
+
+=========================================
+MOBILE APP DOWNLOAD COUNTER
+===========================
+
+Downloads received from different cities:
+
+cities = ["Indore","Bhopal","Indore","Pune","Delhi","Pune","Indore"]
+
+Write a program to:
+
+* Count downloads city-wise.
+* Display city with maximum downloads.
+
+Sample Output:
+{'Indore':3,'Bhopal':1,'Pune':2,'Delhi':1}
+Most Downloads : Indore
+
+---
+
+7.
+
+=========================================
+ONLINE EXAM RESULT SYSTEM
+=========================
+
+Store student marks in a dictionary.
+
+results = {
+"Ajay":88,
+"Ravi":45,
+"Neha":76,
+"Aman":39
+}
+
+Write a program to:
+
+* Display names of students who passed.
+  (Passing Marks = 50)
+
+Sample Output:
+Ajay
+Neha
+Ravi
+
+---
+
+8.
+
+=========================================
+LIBRARY BOOK ISSUE TRACKER
+==========================
+
+A library records issued books.
+
+books = [
+"Python",
+"Java",
+"Python",
+"C++",
+"Java",
+"Python"
+]
+
+Write a program to:
+
+* Count how many times each book was issued.
+
+Sample Output:
+{
+'Python':3,
+'Java':2,
+'C++':1
+}
+
+---
+
+9.
+
+=========================================
+INVENTORY MANAGEMENT SYSTEM
+===========================
+
+Store product stock in a dictionary.
+
+stock = {
+"Pen":50,
+"Pencil":100,
+"Eraser":25,
+"Marker":10
+}
+
+Write a program to:
+
+* Display products having stock less than 30.
+
+Sample Output:
+Eraser
+Marker
+
+---
+
+10.
+
+=========================================
+EMAIL DOMAIN COUNTER
+====================
+
+emails = [
+"[ajay@gmail.com](mailto:ajay@gmail.com)",
+"[ravi@yahoo.com](mailto:ravi@yahoo.com)",
+"[neha@gmail.com](mailto:neha@gmail.com)",
+"[aman@outlook.com](mailto:aman@outlook.com)",
+"[abc@gmail.com](mailto:abc@gmail.com)"
+]
+
+Write a program to:
+
+* Count users belonging to each email domain.
+
+Sample Output:
+{
+'gmail.com':3,
+'yahoo.com':1,
+'outlook.com':1
+}
+
+---
+
+11.
+
+=========================================
+PRODUCT SALES ANALYSIS
+======================
+
+sales = [
+"Mobile",
+"Laptop",
+"Mobile",
+"Tablet",
+"Laptop",
+"Mobile"
+]
+
+Write a program to:
+
+* Count sales of each product.
+* Display products in sorted order.
+
+Sample Output:
+Laptop : 2
+Mobile : 3
+Tablet : 1
+
+---
+
+12.
+
+=========================================
+ONLINE FOOD DELIVERY ANALYSIS
+=============================
+
+orders = [
+"Pizza",
+"Burger",
+"Pizza",
+"Pasta",
+"Burger",
+"Pizza",
+"Pasta"
+]
+
+Write a program to:
+
+* Count orders of each food item.
+* Find the most ordered item.
+
+Sample Output:
+Pizza : 3
+Burger : 2
+Pasta : 2
+
+Most Ordered : Pizza
+
+---
