@@ -22,12 +22,22 @@ Highest Marks : Ravi 92
 Lowest Marks : Aman 65
 '''
 
-n = int(input("Enter number of Students: "))
-d = {}
+students = {
+    "Ajay": 78,
+    "Ravi": 92,
+    "Neha": 85,
+    "Aman": 65
+}
 
-for i in range(n):
-    name = input("Enter name of student: ")
-    marks = int(input("Enter marks of student: "))
-    d[name] = marks
+highest = None
+lowest = None
 
+for name, marks in students.items():
+    if highest is None or marks > students[highest]:
+        highest = name
+    if lowest is None or marks < students[lowest]:
+        lowest = name
+
+print("Highest Marks :", highest, students[highest])
+print("Lowest Marks :", lowest, students[lowest])
 
