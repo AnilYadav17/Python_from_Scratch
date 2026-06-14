@@ -151,7 +151,7 @@ print(f"Is the score valid? {is_valid_grade}")  # Output: True
 </div>
 
 * **Language:** Python 3.x
-* **Editor:** VS Code
+* **Editor:** VS Code / nano / vim / notepad etc.
 * **Version Control:** Git & GitHub
 
 ---
