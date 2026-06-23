@@ -16,3 +16,10 @@ Binary Number = 11001
 
 Note: Do not use Python's built-in bin() function.
 '''
+def to_binary(n):
+    if n == 0:
+        return 0
+    return (n % 2) + 10 * to_binary(n // 2)
+
+n = int(input("Enter a decimal number:\n"))
+print("Binary Number =", to_binary(n))

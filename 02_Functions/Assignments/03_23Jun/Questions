@@ -1,0 +1,132 @@
+1.
+Student Registration System – Longest Name
+
+A school is organizing an inter-school cultural event. During the registration process, the coordinator notices that some students have very long names, which may not fit properly on the printed ID cards.
+
+As a software developer, your task is to write a Python program that identifies the student with the longest name from the list of registered students using the reduce() function along with a lambda expression.
+
+Input
+students = ["Riya", "Christopher", "Aman", "Neha", "Siddharth"]
+Expected Output
+Student with the longest name: Christopher
+
+2.
+Hospital Management System – Oldest Patient
+
+A hospital wants to give priority to the oldest patient during a free health check-up camp. The patient details are stored as tuples containing the patient's name and age.
+
+As a Python developer, write a program to identify the oldest patient using the reduce() function with a lambda expression.
+
+Input
+patients = [
+    ("Rahul", 45),
+    ("Sneha", 62),
+    ("Amit", 38),
+    ("Kiran", 71),
+    ("Pooja", 55)
+]
+Expected Output
+Oldest Patient: Kiran
+
+3.
+Cricket Tournament – Highest Run Scorer
+
+A cricket academy wants to reward the player who scored the highest number of runs in a tournament.
+
+Write a Python program to identify the highest run scorer using reduce() and a lambda expression.
+
+Input
+players = [
+    ("Virat", 78),
+    ("Rohit", 102),
+    ("Gill", 89),
+    ("KL Rahul", 65),
+    ("Iyer", 91)
+]
+Expected Output
+Highest Run Scorer: Rohit
+
+4.
+Assignment 10: Cyber Security (Strong Password Check)
+
+A cybersecurity company considers a numeric password to be "strong" if every digit is even.
+
+Task
+
+Write a recursive function to check whether all digits of the given number are even.
+
+Input 1
+Enter Password:
+248620
+Output 1
+Strong Password
+Input 2
+Enter Password:
+248621
+Output 2
+Weak Password
+
+5.
+ Hospital Record System (Search Digit)
+
+
+A hospital stores patient IDs as numbers. The administrator wants to verify whether a specific digit exists in a patient ID.
+
+Task
+
+Write a recursive function to determine whether a given digit is present.
+
+Input
+Enter Patient ID:
+5837264
+
+Enter Digit:
+7
+Output
+Digit Found
+
+6.
+ Mobile Recharge System
+
+A telecom company issues lucky recharge coupons only if the coupon number is prime.
+
+Task
+
+Write a recursive function to determine whether a given number is prime.
+
+Input
+Enter Coupon Number:
+29
+Output
+Prime Number
+
+7.
+Assignment: File Compression System (String Compression)
+
+A file compression company wants to reduce the size of text files before storing them. One simple compression technique is to replace consecutive repeated characters with the character followed by its count.
+
+For example:
+
+AAABBCCCCD → A3B2C4D1
+
+As a software developer, your task is to write a recursive Python program to compress a given string.
+
+Task
+
+Write a recursive function that compresses a string by counting consecutive occurrences of each character.
+
+Input
+Enter a String:
+AAABBCCCCD
+Output
+Compressed String = A3B2C4D1
+Sample Input 2
+Enter a String:
+WWWWXXYYZ
+Sample Output 2
+Compressed String = W4X2Y2Z1
+Sample Input 3
+Enter a String:
+AAAAA
+Sample Output 3
+Compressed String = A5
