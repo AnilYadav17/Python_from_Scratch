@@ -10,13 +10,14 @@ def add_details():
 
 
 def s_highest(x):
-    highest=x[0]
-    second_highest=x[0]
+    highest = second = float('-inf')
     for i in x:
-        if i>highest:
-              second_highest=highest
-              highest=i
-    return second_highest
+        if i > highest:
+            second = highest
+            highest = i
+        elif highest > i > second:
+            second = i
+    return second
      
 def senior_emp(x):
     count=0
