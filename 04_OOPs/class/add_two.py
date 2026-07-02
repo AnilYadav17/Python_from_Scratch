@@ -11,3 +11,16 @@ a = Addition()
 a.set(10,20)
 a.sum()
 print(a.display())
+
+
+
+'''
+def set(self,a,b):
+	self.a = a
+	self.b = b
+
+def add(self):
+	print("Add is called")
+	c = self.a + self.b
+	return c
+'''
