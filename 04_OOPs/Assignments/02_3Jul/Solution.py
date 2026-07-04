@@ -1,6 +1,6 @@
 class Customer:
-    "Bank Name" = "ABC Bank"
-    "Interest Rate" = 7.5
+    Bank_Name = "ABC Bank"
+    Interest_Rate = 7.5
     accounts=[]
     transaction_counter = 1024
 
@@ -9,18 +9,19 @@ class Customer:
         self.customer_name = customer_name
         self.balance = balance
         Customer.accounts.append(account_no)
+        
 
     def deposit(self,amount):
-        self.deposit = float(input("Enter Amount to Deposit: "))
+        self.deposit = amount
         self.balance+=self.deposit
 
     def withdraw(self,amount):
-        self.withdraw = float(input("Enter Amount to Withdraw: "))
+        self.withdraw = amount
         self.balance-=self.withdraw
     
-    def transfer_money(self,receiver, amount):
-        self.reciever = float(input("Enter Reciever No.  : "))
-        self.transffered = float(input("Enter Amount to Transfer : "))
+    def transfer_money(self,reciever, amount):
+        self.reciever = reciever
+        self.transffered = amount
         self.balance-=self.transffered
 
     def display_balance(self):
@@ -56,7 +57,18 @@ class Customer:
     
 
 
-    
-    
+c1 = Customer(1001,"Anil",50000)
+c2 = Customer(1002,"Anu",30000)
+
+amount =  float(input("Enter Deposit Amount: "))
+c1.deposit(amount)
+
+amount = float(input("Enter Transfer Amount: "))
+receiver = c2.account_no
+c1.transfer_money(receiver,amount)
 
 
+print(c1.display_balance())
+c2.balance + c2.calculate_interest(c2.balance,c2.Interest_Rate)
+
+print(c2.display_balance())
