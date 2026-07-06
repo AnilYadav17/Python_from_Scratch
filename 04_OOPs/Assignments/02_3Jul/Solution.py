@@ -57,10 +57,7 @@ for i in range(2):
     ac_no = int(input("Account No : "))
     name = input("Customer Name : ")
     balance = float(input("Account Balance : "))
-    globals()[f"c{i+1}"] = Customer(ac_no,name,balance)
-
-
-c2 = Customer(1002,"Anu",30000)
+    globals()[f"c{i+1}"] = Customer(ac_no,name,balance)     #I used this globals to make it dynamic
 
 amount =  float(input("Enter Deposit Amount: "))
 c1.deposit(amount)
