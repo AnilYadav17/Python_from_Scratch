@@ -26,14 +26,23 @@ Input: nums = [0,0,0]
 Output: [[0,0,0]]
 Explanation: The only possible triplet sums up to 0.'''
 
-
 nums = [-1,0,1,2,-1,-4]
 
 class Solution(object):
     def threeSum(self, nums):
-        for i in nums:
-            for j in nums
-            
+        ans =[]
+        for i in range(len(nums)):
+            for j in range(len(nums)):
+                for k in range(len(nums)):
+                    if i != j and i != k and j != k:
+                        triplet = sorted([nums[i],nums[j],nums[k]])
+                        if sum(triplet)==0:
+                            if triplet not in ans:
+                                ans.append(triplet)
+
+        return ans
+                        
+
 
 s1 = Solution()
-s1.threeSum(nums)
+print(s1.threeSum(nums))
