@@ -11,6 +11,15 @@ print(sorted([nums[i],nums[j],nums[k]]))
 # for i in nums:
 #     ans.append(i)
 #     ans.append(i)
-print(ans)
+print(float("inf"))
 # print(sum(nums))
 # print(nums)
+
+
+nums = [1,1,1,1,1,1,1]
+
+for i in nums[:]:
+    if i==1:
+        i=2
+
+print(nums)
