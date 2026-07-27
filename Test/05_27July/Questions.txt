@@ -1,0 +1,144 @@
+Problem:1 Find the Longest Substring That Appears at Both Ends(4 marks)
+
+Problem Statement Given a string S, find the longest substring that
+appears both as a prefix (beginning) and as a suffix (ending) of the
+string.
+
+The prefix and suffix must not be equal to the entire string itself. If
+multiple such substrings exist, return the longest one. If no such
+substring exists, print “Not Found”.
+
+Note: The prefix and suffix may overlap.
+
+Input Format - A single line containing the string S.
+
+Output Format - Print the longest substring that appears as both a
+prefix and a suffix. - If no such substring exists, print: Not Found
+
+Constraints 1 ≤ |S| ≤ 100000 S consists of lowercase English letters
+only.
+
+Examples
+
+1)  Input: ababcab Output: ab
+
+2)  Input: level Output: l
+
+3)  Input: abcabc Output: abc
+
+4)  Input: abcdef Output: Not Found
+
+5)  Input: aaaa Output: aaa
+
+Sample Test Cases
+
+1)  Input: banana Output: Not Found
+
+2)  Input: abcdabc Output: abc
+
+3)  Input: xyzxyz Output: xyz
+
+4)  Input: ababab Output: abab
+
+5)  Input: mississippi Output: i
+
+6)  Input: a Output: Not Found
+
+7)  Input: aaaaaa Output: aaaaa
+
+8)  Input: racecar Output: r
+
+9)  Input: abababab Output: ababab
+
+10) Input: abcab Output: ab
+
+
+
+
+problem 2:-   3 marks
+
+Matrix Multiplication
+
+Write a Python program to read two matrices from the user and perform matrix multiplication.
+
+Before multiplying the matrices, check whether multiplication is possible. Matrix multiplication is possible only if
+the number of columns in the first matrix is equal to the number of rows in the second matrix.
+
+Requirements
+Read the number of rows and columns for the first matrix.
+Read all the elements of the first matrix from the user.
+Read the number of rows and columns for the second matrix.
+Read all the elements of the second matrix from the user.
+Check whether matrix multiplication is possible.
+If possible, multiply the matrices using nested loops.
+Display the resulting matrix.
+
+If multiplication is not possible, display:
+
+Matrix multiplication is not possible.
+
+
+
+problem 3:  3 marks
+==========
+
+
+Rithish is developing a straightforward pizza ordering system. To achieve this, he needs a Pizza class with a constructor for
+ the base price and topping cost, along with a calculatePrice method overriding. He also wants a DiscountedPizza class that inherits from
+Pizza, applying a 10% discount for more than three toppings.
+
+The program prompts the user for inputs, creates instances of both classes, calculates regular and discounted prices,
+and displays them formatted appropriately.
+
+Example 1
+
+Input:
+9.5
+1.25
+3
+Output:
+Price without discount: Rs.13.25
+Price with discount: Rs.13.25
+Explanation:
+Rithish orders a pizza with a base price of Rs. 9.5, a topping cost of Rs. 1.25, and selects 3 toppings. The price is calculated as 9.5 + (1.25 * 3) = 13.25. The regular and discounted prices are both Rs. 13.25, as no discount has been applied.
+
+Example 2
+
+Input:
+11.0
+2.0
+7
+Output:
+Price without discount: Rs.25.00
+Price with discount: Rs.22.50
+Explanation:
+Rithish orders another pizza with a higher base price of Rs. 11.0, a topping cost of Rs. 2.0, and chooses 7 toppings.
+Regular Price: 11.0 + (2.0 * 7) = Rs. 25.00.
+Discounted Price: The discounted price is calculated as 90% of the regular price, i.e., 0.9 * 25.00 = Rs.22.50.
+Input format :
+The first line of input consists of a double value, representing the base price of the pizza.
+The second line consists of a double value, representing the cost per topping.
+The third line consists of an integer, representing the number of toppings chosen for the pizza.
+Output format :
+The first line of output prints the price without discount, rounded off to two decimal places.
+The second line prints the price with the discount, rounded off to two decimal places.
+
+Refer to the sample output for formatting specifications.
+Code constraints :
+The base price and the cost per topping should be greater than zero.
+1 ≤ number of toppings ≤ 10
+Sample test cases :
+Input 1 :
+9.5
+1.25
+3
+Output 1 :
+Price without discount: Rs.13.25
+Price with discount: Rs.13.25
+Input 2 :
+11.0
+2.0
+7
+Output 2 :
+Price without discount: Rs.25.00
+Price with discount: Rs.2
