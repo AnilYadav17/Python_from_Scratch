@@ -1,0 +1,253 @@
+ASSIGNMENT 1: Hospital Management System (Single Inheritance)
+Scenario
+A software company has been hired to develop a Hospital Management System. Every person associated with the hospital has some common details, but each category has its own unique information.
+Create a base class Person containing:
+Person ID
+Name
+Age
+Mobile Number
+Create the following derived classes:
+Doctor
+Specialization
+Experience (Years)
+Consultation Fee
+Nurse
+Department
+Shift (Day/Night)
+Salary
+Patient
+Disease
+Ward Number
+Bill Amount
+Functional Requirements
+Create a menu-driven application.
+========== Hospital Management ==========
+1. Add Doctor
+2. Add Nurse
+3. Add Patient
+4. Display Doctor Details
+5. Display Nurse Details
+6. Display Patient Details
+7. Exit
+Sample Input
+Enter Choice : 1
+
+Enter Doctor ID : 101
+Enter Name : Rahul Sharma
+Enter Age : 45
+Enter Mobile : 9876543210
+Enter Specialization : Cardiologist
+Enter Experience : 18
+Enter Consultation Fee : 1500
+Sample Output
+Doctor Added Successfully
+
+----------- Doctor Details -----------
+
+Doctor ID          : 101
+Name               : Rahul Sharma
+Age                : 45
+Mobile             : 9876543210
+Specialization     : Cardiologist
+Experience         : 18 Years
+Consultation Fee   : ₹1500
+
+
+
+
+ASSIGNMENT 2: Employee Payroll Management System (Method Overriding + Menu Driven)
+Scenario
+An IT company has three categories of employees.
+Create a base class Employee.
+Common Details
+Employee ID
+Name
+Department
+Derived Classes
+FullTimeEmployee
+Monthly Salary
+Bonus
+Salary Formula
+Salary = Monthly Salary + Bonus
+PartTimeEmployee
+Hourly Rate
+Total Hours Worked
+Salary Formula
+Salary = Hourly Rate × Hours
+ContractEmployee
+Project Name
+Contract Amount
+Salary Formula
+Salary = Contract Amount
+Functional Requirements
+========== Payroll System ==========
+
+1. Add Full Time Employee
+2. Add Part Time Employee
+3. Add Contract Employee
+4. Display Full Time Salary
+5. Display Part Time Salary
+6. Display Contract Salary
+7. Exit
+Sample Input
+Choice : 2
+
+Employee ID : 205
+Name : Aman Verma
+Department : Testing
+
+Hourly Rate : 350
+Hours Worked : 160
+Sample Output
+Employee Added Successfully
+
+Employee ID : 205
+Name : Aman Verma
+Department : Testing
+Hourly Rate : 350
+Hours Worked : 160
+Total Salary : ₹56000
+
+
+
+
+ASSIGNMENT 3: Online Shopping System (Hierarchical Inheritance)
+Scenario
+An e-commerce company sells multiple categories of products.
+Create a base class Product.
+Common Details
+Product ID
+Product Name
+Price
+Derived Classes
+Electronics
+Brand
+Warranty
+Clothing
+Size
+Fabric Type
+Grocery
+Expiry Date
+Weight
+Functional Requirements
+========== Online Shopping ==========
+1. Add Electronics Product
+2. Add Clothing Product
+3. Add Grocery Product
+4. Display Electronics
+5. Display Clothing
+6. Display Grocery
+7. Exit
+Sample Input
+Choice : 1
+
+Product ID : 501
+Product Name : Laptop
+Price : 65000
+
+Brand : Dell
+Warranty : 2 Years
+Sample Output
+Electronics Product
+
+Product ID : 501
+Product Name : Laptop
+Brand : Dell
+Warranty : 2 Years
+Price : ₹65000
+ASSIGNMENT 4: Banking Loan Management System (Multilevel Inheritance)
+Scenario
+A bank wants software for loan management.
+Class Hierarchy
+Person
+     ↓
+Customer
+     ↓
+LoanAccount
+Person
+Name
+Age
+Mobile Number
+Customer
+Customer ID
+Account Number
+LoanAccount
+Loan Amount
+Interest Rate
+Loan Tenure
+Functional Requirements
+Add Customer Loan Details
+Display Loan Details
+Exit
+Sample Input
+Customer Name : Ajay Singh
+Age : 36
+Mobile : 9999999999
+
+Customer ID : C101
+Account Number : 100245785
+
+Loan Amount : 500000
+Interest Rate : 8.5
+Loan Tenure : 5
+Sample Output
+----------- Loan Details -----------
+
+Customer Name : Ajay Singh
+Customer ID : C101
+Account Number : 100245785
+
+Loan Amount : ₹500000
+Interest Rate : 8.5%
+Loan Tenure : 5 Years
+ASSIGNMENT 5: School ERP System (Hierarchical Inheritance)
+Scenario
+A school is developing an ERP system.
+Every person has common information.
+Base Class
+Person
+Name
+Age
+Address
+Derived Classes
+Student
+Roll Number
+Course
+Marks
+Teacher
+Employee ID
+Subject
+Salary
+Principal
+Office Number
+Experience
+Qualification
+Functional Requirements
+========== School ERP ==========
+1. Add Student
+2. Add Teacher
+3. Add Principal
+4. Display Student
+5. Display Teacher
+6. Display Principal
+7. Exit
+Sample Input
+Choice : 1
+
+Roll Number : 102
+Name : Riya Sharma
+Age : 20
+Address : Indore
+
+Course : Python Full Stack
+Marks : 89
+Sample Output
+----------- Student Details -----------
+
+Roll Number : 102
+Name : Riya Sharma
+Age : 20
+Address : Indore
+
+Course : Python Full Stack
+Marks : 89

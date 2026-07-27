@@ -1,5 +1,5 @@
 #WAP to create an Abstarct Class Payment with pay as a Abstract Method , 
-#Now create different payment classess (Ne)
+#Now create different payment classess (New)
 
 from abc import ABC,abstractmethod
 class Payment(ABC):

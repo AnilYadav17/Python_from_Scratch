@@ -1,0 +1,25 @@
+#ABC stands for Abstaract Base Class 
+#abc is an built in module in Python that helps us to create Abstract classes ans Abstract Methods .
+#It is a Base class use to create abstract class.
+
+@abstractmethod
+#It is a decorator use to declare a method without implementation.
+#It force the child class to implement that method.
+Python uses Abstract classes for it. 
+Abstract class is a class that can not be instanciated. 
+It acts as an blueprint for other classes.
+
+If Abstract class does not have Abstract method  then we can create object for that class.
+
+INFORCE METHOD IMPLEMENTATION :- 
+i) In Abstract classes force child class to implement certain methods.
+   this ensures that all subclasses follow the same structure.
+ii) Reduce Complexity :- The User only interects with essential features without worrying about internal IMPLEMENTATION.
+iii) Supports loose Coupling :- It provides common interface.
+
+
+
+
+
+HW:
+OOPS ? concepts ?

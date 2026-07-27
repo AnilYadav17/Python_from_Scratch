@@ -14,10 +14,10 @@ class SBI(Bank):
 
 
 class HDFC(Bank):
+    #there is should be interest member fucntion.
     pass
-
 obj = SBI()
 obj.interest()
 
-obj1=HDFC()
-obj1.interest()
+# obj1=HDFC()
+# obj1.interest()

@@ -1,0 +1,77 @@
+Mock Test - Scenario-Based Programming
+========================================
+Time: 1 Hour
+Total Questions: 3
+
+----------------------------------------------------------------------
+Question 1: Scenario-based String (Data Sanitization)
+----------------------------------------------------------------------
+A customer relationship management (CRM) software receives raw user inputs 
+for their "Full Name". Often, these inputs are messy, containing extra 
+spaces, weird casing, and unwanted special characters.
+
+Write a Python program to clean up a given string based on these rules:
+1. Remove any character that is NOT an English alphabet letter or a space.
+2. Remove any extra multiple spaces between words, reducing them to a single space.
+3. Convert the cleaned string into Title Case (the first letter of every word is 
+   capitalized, and the rest are lowercase).
+
+Input Example:
+Enter Name: "  johN,   dO.e  ! "
+
+Expected Output:
+Cleaned Name: "John Doe"
+
+----------------------------------------------------------------------
+Question 2: Scenario-based Array/List (Warehouse Inventory)
+----------------------------------------------------------------------
+A warehouse tracks the daily movement of a specific product over N days.
+You are given a list of integers where positive numbers indicate stock added, 
+and negative numbers indicate stock dispatched/sold. The initial stock is 0.
+
+Write a Python program that does the following:
+1. Calculates the final stock remaining after N days.
+2. Finds the day (1-based index) that had the maximum stock dispatch 
+   (i.e., the most negative number).
+3. Detects if the stock ever went into negative numbers on any given day. 
+   If it does, print "Warning: Stockout on day X".
+
+Input Example:
+stock_movements = [150, -50, -120, 80, -20]
+
+Expected Output:
+Final Stock: 40
+Maximum Dispatch on: Day 3 (Amount: -120)
+Warning: Stockout on Day 3 (Stock dropped to -20)
+
+----------------------------------------------------------------------
+Question 3: Object-Oriented Programming (Ride-Sharing System)
+----------------------------------------------------------------------
+A new cab booking startup wants to manage its daily rides using objects. 
+
+Write a Python program to:
+1. Create a class named `Ride` with the following attributes:
+   - ride_id (string)
+   - customer_name (string)
+   - distance_km (float)
+   - cab_type (string - can only be "Mini", "Sedan", or "SUV")
+
+2. Create an `__init__` constructor to initialize these attributes.
+
+3. Create a method `calculate_fare()` that calculates and returns the fare:
+   - Base Fare: Mini = ₹50, Sedan = ₹80, SUV = ₹120
+   - Per KM Charge: Mini = ₹10/km, Sedan = ₹15/km, SUV = ₹25/km
+   - Formula: Total Fare = Base Fare + (Per KM Charge * distance_km)
+
+4. Create a method `display_ride()` that prints the ride ID, customer name, 
+   cab type, distance, and the total calculated fare.
+
+5. Outside the class:
+   - Create a list of 3 different Ride objects.
+   - Loop through the list to display the details of all rides.
+   - Find and print the name of the customer who paid the highest fare.
+
+Example Objects:
+ride1 = Ride("R01", "Anil", 12.5, "Sedan")
+ride2 = Ride("R02", "Rahul", 5.0, "Mini")
+ride3 = Ride("R03", "Priya", 20.0, "SUV")
