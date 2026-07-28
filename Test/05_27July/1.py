@@ -39,17 +39,3 @@ Sample Test Cases
 '''
 
 s = input("Enter Substring: ")
-
-substrings=[]
-for i in range(len(s)):
-    for j in range(i,len(s)):
-        sub = s[i:j+1]
-        substrings.append(sub)
-seen=[] 
-max_element=substrings.count(substring[0])
-for i in substrings:
-    if i not in seen:
-        if substrings.count(i) > substrings.count(max_element) 
-        
-        
-        
