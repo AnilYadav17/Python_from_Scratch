@@ -179,5 +179,5 @@ print(f"Is the score valid? {is_valid_grade}")  # Output: True
 
 ---
 
-> *"Consistency beats intensity."*  
+> *"Consistency beats intensity at alll."*  
 > Made with ❤️ and discipline by Anil Yadav.
