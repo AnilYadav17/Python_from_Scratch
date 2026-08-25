@@ -1,0 +1,289 @@
+QNO 1:Student Result Processing System(3 Marks)
+
+You are working as a Python developer for a training institute. The institute maintains student marks in a file named students.txt.
+
+Your task is to develop a Student Result Processing System that reads student records from the file,
+validates the data, calculates the result, and generates separate files for valid results and errors.
+
+Input File: students.txt
+
+The file contains student records in the following format:
+
+Student_ID,Student_Name,Subject,Marks
+
+The actual file contains:
+
+101,Ajay,Python,85
+102,Rahul,Python,78
+103,Priya,Python,92
+104,Amit,Python,abc
+105,Neha,Python,88
+106,Rohit,Python
+107,Simran,Python,95
+108,Karan,Python,105
+109,Anita,Python,35
+110,Vikas,Python,65
+
+NOTE:
+Some records intentionally contain invalid data:
+
+104,Amit,Python,abc → Marks are not numeric.
+106,Rohit,Python → Marks are missing.
+108,Karan,Python,105 → Marks are outside the valid range of 0–100.
+
+Your program must not terminate when it encounters an invalid record.
+
+It should skip the invalid record, store the error in an error file, and continue processing the remaining records.
+
+Requirements
+
+1. Read the Input File
+
+Read student records from students.txt using Python file handling.
+
+Process the file line by line.
+
+2. Validate Student Records
+
+For every record, validate:
+
+Student ID must be present.
+Student Name must be present.
+Subject must be present.
+Marks must be present.
+Marks must be numeric.
+Marks must be between 0 and 100. 3. Calculate Result
+
+Based on marks, assign the following result:
+
+Marks Result
+90–100 Excellent
+75–89 Very Good
+60–74 Good
+40–59 Pass
+0–39 Fail 4. Generate result.txt
+
+For every valid student record, write:
+
+Student ID - Name - Subject - Marks - Result
+
+Expected output:
+
+101 - Ajay - Python - 85 - Very Good
+102 - Rahul - Python - 78 - Very Good
+103 - Priya - Python - 92 - Excellent
+105 - Neha - Python - 88 - Very Good
+107 - Simran - Python - 95 - Excellent
+109 - Anita - Python - 35 - Fail
+110 - Vikas - Python - 65 - Good
+
+5. Generate error_log.txt
+
+For every invalid record, write the original record along with the reason for the error.
+
+Expected output:
+
+Error: 104,Amit,Python,abc -> Marks must be numeric
+Error: 106,Rohit,Python -> Marks are missing
+Error: 108,Karan,Python,105 -> Marks must be between 0 and 100
+
+6. Error Handling
+
+Your program should handle different types of invalid situations appropriately.
+
+Important: If one student's record is invalid, the program must continue processing the remaining records instead of terminating.
+
+For example:
+
+104 → Invalid → Continue
+105 → Valid → Process
+106 → Invalid → Continue
+107 → Valid → Process 7. Additional Requirement
+
+If the input file is not available, display an appropriate error message instead of terminating the program.
+
+Expected Final Output
+
+After successful execution, display:
+
+Student result processing completed successfully.
+
+Valid records have been written to result.txt
+Invalid records have been written to error_log.txt
+
+The following files should be generated:
+
+project/
+│
+├── student_result.py
+├── students.txt
+├── result.txt
+└── error_log.txt
+
+QNO 2: Find the Longest Substring That Appears at Both Ends(3 marks)
+
+Problem Statement Given a string S, find the longest substring that
+appears both as a prefix (beginning) and as a suffix (ending) of the
+string.
+
+The prefix and suffix must not be equal to the entire string itself. If
+multiple such substrings exist, return the longest one. If no such
+substring exists, print “Not Found”.
+
+Note: The prefix and suffix may overlap.
+
+Input Format - A single line containing the string S.
+
+Output Format - Print the longest substring that appears as both a
+prefix and a suffix. - If no such substring exists, print: Not Found
+
+Constraints 1 ≤ |S| ≤ 100000 S consists of lowercase English letters
+only.
+
+Examples
+
+1.  Input: ababcab Output: ab
+
+2.  Input: level Output: l
+
+3.  Input: abcabc Output: abc
+
+4.  Input: abcdef Output: Not Found
+
+5.  Input: aaaa Output: aaa
+
+Sample Test Cases
+
+1.  Input: banana Output: Not Found
+
+2.  Input: abcdabc Output: abc
+
+3.  Input: xyzxyz Output: xyz
+
+4.  Input: ababab Output: abab
+
+5.  Input: a Output: Not Found
+
+6.  Input: aaaaaa Output: aaaaa
+
+7.  Input: racecar Output: r
+
+8.  Input: abababab Output: ababab
+
+9.  Input: abcab Output: ab
+
+MySQL Assessment--- 4 marks
+Part 1: Create the Table
+
+Create a table named employee_activity using the following requirements:
+| Column | Requirement |
+| ----------------- | --------------------------------------------------------------------- |
+| `employee_id` | Integer, Primary Key, Auto Increment |
+| `employee_name` | String |
+| `department` | String |
+| `salary` | Decimal number |
+| `employment_type` | ENUM — `FULL_TIME`, `PART_TIME`, `CONTRACT` |
+| `skills` | SET — `PYTHON`, `MYSQL`, `JAVA`, `REACT`, `AWS`, `AI_ML` |
+| `joining_date` | TIMESTAMP with current timestamp as default value |
+| `updated_at` | TIMESTAMP which automatically updates whenever the record is modified |
+| `email` | String |
+| `city` | String |
+===============================================================================================
+Note: Decide suitable data sizes and other appropriate constraints yourself.
+
+Part 2: Data for Insertion
+
+Insert the following 5 records:
+| Employee Name | Department | Salary | Employment Type | Skills | Email | City |
+| ------------- | ---------- | -----: | --------------- | ------------------------- | ----------------------------------------------------- | ------ |
+| Amit Sharma | IT | 75000 | FULL_TIME | PYTHON, MYSQL, AI_ML | [amit.sharma@gmail.com](mailto:amit.sharma@gmail.com) | Indore |
+| Priya Verma | HR | 52000 | FULL_TIME | MYSQL, REACT | [priya.verma@gmail.com](mailto:priya.verma@gmail.com) | Bhopal |
+| Rahul Mehta | IT | 95000 | CONTRACT | PYTHON, JAVA, AWS | [rahul.mehta@gmail.com](mailto:rahul.mehta@gmail.com) | Indore |
+| Neha Joshi | Finance | 68000 | PART_TIME | MYSQL, AI_ML | [neha.joshi@yahoo.com](mailto:neha.joshi@yahoo.com) | Pune |
+| Vikas Patel | IT | 85000 | FULL_TIME | PYTHON, REACT, AWS, AI_ML | [vikas.patel@gmail.com](mailto:vikas.patel@gmail.com) | Mumbai |
+======================================================================================================
+Note: Do not manually insert values for employee_id, joining_date, or updated_at.
+
+Query 1:
+
+Display employees who satisfy either of these conditions:
+
+IT employees with salary greater than ₹80,000
+OR Finance employees with salary between ₹60,000 and ₹70,000
+
+Sort the result by salary in descending order.
+
+Query 2:
+
+Display employees whose:
+
+department is not HR
+employment type is either FULL_TIME or CONTRACT
+salary is greater than ₹70,000
+
+Sort by salary from highest to lowest and display only the top 3 employees.
+
+Query 3
+
+Display employees whose employee name contains the letter a and who have either PYTHON or AI_ML in their skills.
+
+Sort the result alphabetically by employee name.
+
+Query 4
+Display employees whose joining_date is between:
+January 1, 2025 00:00:00 and December 31, 2025 23:59:59.
+Sort the result by joining date in ascending order.
+
+Query 5
+
+Display employees who satisfy any one of the following conditions:
+
+Condition A:
+
+IT department
+salary greater than ₹70,000
+employment type is FULL_TIME or CONTRACT
+
+OR
+
+Condition B:
+
+Finance department
+salary between ₹60,000 and ₹75,000
+skills contain MYSQL or AI_ML
+
+OR
+
+Condition C:
+
+HR department
+employment type is FULL_TIME
+city is either Bhopal or Indore
+
+Sort the final result by:
+
+Salary descending
+Employee name ascending
+
+Display only the top 4 records.
+
+in s
+Query 6
+
+Display employees who satisfy the following rules:
+
+Employee must not belong to HR
+Salary must be between ₹65,000 and ₹95,000
+City must be Indore, Mumbai, or Pune
+Employment type must not be PART_TIME
+Employee must have PYTHON or AWS in their skills
+Employee name must contain either a or i
+The result should exclude employees whose department is Finance unless their salary is greater than ₹65,000
+
+Sort the result by:
+
+Salary descending
+Joining date descending
+Employee name ascending
+
+Finally, display only the top 2 records.
