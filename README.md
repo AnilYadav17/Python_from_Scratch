@@ -51,7 +51,7 @@ The codebase is highly organized into logical folders mapping to specific topics
 
 | Directory | Description / Concepts Covered |
 | :--- | :--- |
-| 🏆 **[30_Days_Revision_Challenge](./30_Days_Revision_Challenge)** | A rigorous 30-day markdown guide covering the entirety of Python fundamentals to advanced topics. |
+| 🏆 **[30_Days_Revision](./30_Days_Revision_Challenge)** | A rigorous 30-day markdown guide covering the entirety of Python fundamentals to advanced topics. |
 | 💻 **[Leetcode](./Leetcode)** | Solutions to algorithmic challenges categorized by topic (Array, Strings, etc). |
 
 ### 🛠️ Practice & Resources
