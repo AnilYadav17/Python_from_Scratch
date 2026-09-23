@@ -4,7 +4,7 @@
 
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Status-Active%20Learning-00C853?style=for-the-badge" alt="Active">
-  <img src="https://img.shields.io/github/commit-activity/m/AnilYadav17/Python_from_Scratch?style=for-the-badge" alt="Commit Activity">
+  <img src="https://img.shields.io/github/commit-activity/m/AnilYadav17/Python?style=for-the-badge" alt="Commit Activity">
 
   <h3>Consistent Daily Python Learning Journey</h3>
   <p>Building strong programming fundamentals and analytical logic through disciplined daily practice</p>
@@ -17,9 +17,8 @@
 
 This repository serves as an organized, comprehensive archive of my **Python programming journey**. It documents my progression from absolute basics to advanced topics like Object-Oriented Programming (OOP), File Handling, Exception Handling, and algorithmic problem-solving.
 
-* **Last Updated:** August 2026
 * **Focus:** Logic Development • Problem Solving • Clean Coding Practices • Advanced Python Concepts
-* **Repository Path:** `/home/aniiil/Desktop/Python_from_Scratch`
+* **GitHub Repository:** [AnilYadav17/Python](https://github.com/AnilYadav17/Python)
 
 ---
 
