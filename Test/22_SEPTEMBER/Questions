@@ -1,0 +1,207 @@
+QNO 1: Matrix Transpose & Diagonal Transformation(3.5 marks)
+
+Write a Python program that accepts an N × N square matrix from the user.
+
+The program must:
+
+Display the original matrix.
+Find and display the Main Diagonal elements.
+Find and display the Secondary Diagonal elements.
+Create the transpose of the matrix.
+In the transposed matrix, swap each Main Diagonal element with the corresponding Secondary Diagonal element.
+Display the final matrix.
+The original matrix must not be modified.
+Input
+Enter the size of matrix: 4
+
+Enter matrix elements:
+10 20 30 40
+50 60 70 80
+90 15 25 35
+45 55 65 75
+Expected Output
+Original Matrix:
+10 20 30 40
+50 60 70 80
+90 15 25 35
+45 55 65 75
+
+Main Diagonal Elements:
+10 60 25 75
+
+Secondary Diagonal Elements:
+40 70 15 45
+
+Transpose Matrix:
+10 50 90 45
+20 60 15 55
+30 70 25 65
+40 80 35 75
+
+Final Matrix After Diagonal Swapping:
+45 50 90 10
+20 15 60 55
+30 25 70 65
+75 80 35 40
+
+Conditions
+Use Python nested lists.
+Matrix size must be taken from the user.
+Do not use NumPy.
+Do not use zip().
+Do not use built-in matrix operations.
+Do not modify the original matrix.
+
+==========================
+
+QNO 2: CUSTOMER AND ORDER MANAGEMENT(3.5 marks)
+
+There are two tables: `customer` and `orders`.
+
+The `orders.customer_id` column is a FOREIGN KEY referencing `customer.customer_id`.
+
+---
+
+## TABLE 1: customer
+
+Columns and Data Types:
+
+customer_id INT PRIMARY KEY
+customer_name VARCHAR(50)
+,city VARCHAR(50)
+
+Data:
+
+customer_id customer_name city
+1 Amit Indore
+2 Rahul Pune
+3 Priya Mumbai
+4 Neha Delhi
+5 Karan Bhopal
+6 Sneha Jaipur
+
+---
+
+## TABLE 2: orders
+
+Columns and Data Types:
+
+order_id INT PRIMARY KEY
+order_date DATE
+amount DECIMAL(10,2)
+customer_id INT FOREIGN KEY
+
+Relationship:
+
+orders.customer_id → customer.customer_id
+
+Data:
+
+order_id order_date amount customer_id
+101 2026-01-10 25000 1
+102 2026-01-15 18000 2
+103 2026-02-05 35000 1
+104 2026-02-10 12000 3
+105 2026-02-15 45000 4
+106 2026-03-01 22000 2
+107 2026-03-05 50000 3
+108 2026-03-10 15000 1
+109 2026-03-15 30000 5
+
+==================================================
+QUESTIONS
+=========
+
+Q1. Display customer ID, customer name, city, order ID and order amount for all customers who have placed orders.
+
+Q2. Display each customer's name and the total amount spent by that customer.
+
+Q3. Display the customer name and total amount spent by customers whose total purchase amount is greater than 40000.
+
+Q4. Display the details of orders whose amount is greater than the average order amount of all orders.
+
+Use a SUBQUERY.
+
+Q5. Display the customer name, city and order amount for the order(s) having the highest order amount.
+
+Use a SUBQUERY and JOIN.
+
+Q6. Display the details of customers who have placed at least one order having an amount greater than the average order amount.
+
+Use a SUBQUERY and JOIN.
+
+Q7. Display the customer name and their highest order amount, but display only those customers whose highest order amount is greater than the average order amount of all orders.
+
+Use JOIN, GROUP BY and SUBQUERY.
+
+==================================================
+QNO 3:
+Bank Account Management System
+
+A bank wants to develop a Bank Account Management System using Python, MySQL and Layered Architecture.
+
+Table: account
+
+Field Type
+account_no INT
+holder_name VARCHAR(50)
+balance DECIMAL(10,2)
+account_type VARCHAR(20)
+
+Sample Data:
+
+account_no holder_name balance account_type
+1001 Amit 25000 Savings
+1002 Rahul 40000 Current
+1003 Priya 15000 Savings
+1004 Neha 55000 Savings
+1005 Rohit 30000 Current
+
+Develop a menu-driven Bank Account Management System using the following layered architecture:
+
+database/
+connection.py
+
+dao/
+account_dao.py
+
+service/
+account_service.py
+
+main.py
+
+The application should provide the following operations:
+
+## Create Account
+
+Accept account number, holder name, balance and account type.
+Insert the account into the database.
+
+## Update Account
+
+Accept account_no.
+Update the holder name and balance.
+
+## Delete Account
+
+Accept account_no.
+Delete the account from the database.
+
+## Search Account
+
+Accept account_no.
+Display complete account details.
+If the account does not exist, display an appropriate message.
+
+## Display All Accounts
+
+Display all account records.
+Exit
+
+Architecture Rules
+
+Database connection → Database Layer
+SQL queries → DAO Layer
+Business logic/validation → Service Layer
+Menu and user input/output → Main Layer
+Use parameterized queries.
